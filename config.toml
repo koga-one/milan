@@ -1,6 +1,0 @@
-# To build: hugo -D -d docs --cleanDestinationDir --gc
-# To server: hugo server -D -w
-
-baseURL = "https://milan.bykoga.com"
-languageCode = "en-us"
-title = "byKOGA | Milan"
