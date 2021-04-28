@@ -2,9 +2,6 @@
 baseURL = "https://milan.bykoga.com"
 theme = "milan-theme"
 
-## Localization
-defaultContentLanguage = "pt-br"
-
 ## Pages
 disableKinds = ["taxonomy", "term"]
 
