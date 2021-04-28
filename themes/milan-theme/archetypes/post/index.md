@@ -10,8 +10,12 @@ draft: true
 
 # Organization
 layout:
-topics: []
+topics: [""]
 tags: []
+
+# Style
+style: "normal"
+color: "#fff"
 
 # Thumbnail / Featured
 summary: ""

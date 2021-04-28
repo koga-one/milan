@@ -10,13 +10,17 @@ draft: true
 
 # Organization
 layout:
-topics: []
+topics: ["gamedev"]
 tags: []
+
+# Style
+style: "normal"
+color: "#DA95AD"
 
 # Thumbnail / Featured
 summary: ""
-thumb: "images/Placeholder.jpg"
-alt: "Esse é o placeholder"
+thumb: "images/mountain.jpg"
+alt: "Mountain!"
 ---
 
 wçioeufgapiwugfpiaufgpiawefugailwefug

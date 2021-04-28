@@ -13,9 +13,13 @@ layout:
 topics: ["gamedev"]
 tags: []
 
+# Style
+style: "normal"
+color: "#8EA5AD"
+
 # Thumbnail / Featured
 summary: "bla bla bla bla ble bla"
-thumb: "images/Placeholder.jpg"
+thumb: "images/snow.jpg"
 alt: "Esse é o placeholder"
 ---
 

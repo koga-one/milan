@@ -1,0 +1,27 @@
+<div class="brick card rounded-0" {{with .Params.color }}style="border-color: {{.}}"{{ end }}>
+    {{ if .Params.thumb }}
+        {{ $image := $.Page.Resources.GetMatch .Params.thumb }}
+        {{ .Scratch.Set "modified-image" ($image.Fit "256x192 jpg q75 Lanczos Smart") }}
+        {{ .Scratch.Set "lowres-image" ($image.Fit "256x192 jpg q90") }}
+        <img class="lazy" data-src='{{ (.Scratch.Get "modified-image").Permalink }}' src='{{ (.Scratch.Get "lowres-image").Permalink }}' alt='{{ .Params.alt }}'>
+    {{ end }}
+    {{ with .Params.topics }}
+    <div class="card-header pt-4 pb-0 px-4 border-0 bg-dark">
+        {{ range . }}
+            {{ $href := print (absURL "") (urlize .) }}
+            <a class="link-blue text-decoration-none" href="{{ $href }}" {{with $.Params.color }}style="color: {{.}}"{{ end }}><b>/{{ . }}</b></a>
+        {{ end }}
+    </div>
+    {{ end }}
+    <div class="card-body pt-2 p-4">
+        <a class="text-uppercase link-light" href="{{ .Permalink }}"><h4 class="card-title"><i><b>{{ .Title }}</b></i></h4></a>
+        <p class="card-text">{{ .Summary }}</p>
+    </div>
+    <div class="card-footer border-0">
+        <small>
+            {{ $dateTime := .PublishDate.Format "2006-01-02 15:04 -0700" }}
+            {{ $dateFormat := .Site.Params.dateFormat | default "15:04 - Jan 2, 2006" }}
+            {{ .PublishDate.Format $dateFormat }}
+        </small>
+    </div>
+</div>

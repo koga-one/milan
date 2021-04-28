@@ -16,8 +16,9 @@ $primary: #FFCD39;
 // $info: ;
 // $warning: ;
 // $danger: ;
-$light: #E2E2E2;
-$dark: #121212;
+$link-blue: #4483e2;
+$light: #DBDBDB;
+$dark: #121217;
 $body-bg: $dark;
 $body-color: $light;
 
@@ -31,6 +32,10 @@ $card-height:                       100%;
 $list-group-color:                  $light;
 $list-group-bg:                     $dark;
 $list-group-border-color:           rgba($light, .125);
+
+.link-blue {
+  color: $link-blue;
+}
 
 
 @import "./scss/variables";
