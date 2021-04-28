@@ -1,4 +1,4 @@
 ## Pages
-buildDrafts = false
-buildExpired = false
-buildFuture = false
+buildDrafts = true
+buildExpired = true
+buildFuture = true

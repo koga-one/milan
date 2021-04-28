@@ -1,5 +1,5 @@
 [pt-br]
-    LanguageName = "pt"
+    LanguageName = "pt-br"
     title = "Meu blog"
     weight = 1
     contentDir = "content/portugues"
