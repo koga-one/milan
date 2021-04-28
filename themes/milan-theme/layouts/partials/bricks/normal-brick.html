@@ -8,7 +8,7 @@
     {{ with .Params.topics }}
     <div class="card-header pt-4 pb-0 px-4 border-0 bg-dark">
         {{ range . }}
-            {{ $href := print (absURL "") (urlize .) }}
+            {{ $href := print (absURL "/") (urlize .) }}
             <a class="link-blue text-decoration-none" href="{{ $href }}" {{with $.Params.color }}style="color: {{.}}"{{ end }}><b>/{{ . }}</b></a>
         {{ end }}
     </div>
