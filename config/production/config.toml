@@ -1,0 +1,4 @@
+## Pages
+buildDrafts = false
+buildExpired = false
+buildFuture = false

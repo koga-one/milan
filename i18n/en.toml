@@ -1,0 +1,16 @@
+# Menus
+[home]
+  other = "Home"
+[search]
+  other = "Search"
+[searchPlaceholder]
+  other = "Type..."
+[footerDescription]
+  other = "all rights reserved"
+
+# Posts
+[wordCount]
+  other = "This article has {{ .WordCount }} words"
+[readingTime]
+  one = "One minute to read"
+  other = "{{.Count}} minutes to read"

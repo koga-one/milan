@@ -1,0 +1,14 @@
+## Default
+baseURL = "https://milan.bykoga.com"
+languageCode = "pt-br"
+theme = "milan-theme"
+
+## Localization
+defaultContentLanguage = "pt-br"
+
+## Pages
+disableKinds = ["taxonomy", "term"]
+
+## Media
+# https://www.webfx.com/tools/emoji-cheat-sheet/
+enableEmoji = true

@@ -1,0 +1,61 @@
+[pt-br]
+    LanguageName = "pt"
+    title = "Meu blog"
+    weight = 1
+    contentDir = "content/portugues"
+    [pt-br.Taxonomies]
+        topic = "topicos"
+    [pt-br.menu]    
+        [[pt-br.menu.main]]
+            weight = 0
+            name = "Início"
+            url = "/"
+        [[pt-br.menu.main]]
+            weight = 10
+            name = "Sobre"
+            url = "/sobre/"
+        [[pt-br.menu.main]]
+            weight = 20
+            name = "Tópicos"
+            identifier = "topics"
+            [[pt-br.menu.main]]
+                parent = "topics"
+                weight = 0
+                name = "Arte"
+                url = "/arte"
+            [[pt-br.menu.main]]
+                parent = "topics"
+                weight = 10
+                name = "Game Dev"
+                url = "/gamedev"
+
+[en]
+    LanguageName = "en"
+    title = "My blog"
+    weight = 2
+    contentDir = "content/english"
+    [en.Taxonomies]
+        topic = "topics"
+    [en.menu]
+        [[en.menu.main]]
+            name = "Home"
+            url = "/"
+            weight = 0
+        [[en.menu.main]]
+            name = "About"
+            url = "/about/"
+            weight = 1
+        [[en.menu.main]]
+            weight = 2
+            name = "Topics"
+            identifier = "topics"
+            [[en.menu.main]]
+                parent = "topics"
+                weight = 0
+                name = "Art"
+                url = "/art"
+            [[en.menu.main]]
+                parent = "topics"
+                weight = 10
+                name = "Game Dev"
+                url = "/gamedev"

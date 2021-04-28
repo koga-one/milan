@@ -1,0 +1,12 @@
+{{ define "main" }}
+<section class="single">
+    <h1>single</h1>
+    {{ $content_parts := split .Content "-split-" }}
+
+    {{ range $index, $val := $content_parts }}
+        <div>
+            {{ $val | safe.HTML }}
+        </div>
+    {{ end }}
+</section>
+{{ end }}

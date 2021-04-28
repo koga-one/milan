@@ -1,0 +1,16 @@
+# Menus
+[home]
+  other = "Casa"
+[search]
+  other = "Pesquisar"
+[searchPlaceholder]
+  other = "Digite..."
+[footerDescription]
+  other = "todos os direitos reservados"
+
+# Posts
+[wordCount]
+  other = "Esse artigo tem {{ .WordCount }} palavras"
+[readingTime]
+  one = "Um minuto para ler"
+  other = "{{.Count}} minutos para ler"

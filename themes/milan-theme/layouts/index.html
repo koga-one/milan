@@ -1,0 +1,6 @@
+{{ define "main" }}
+{{ $bricks := where .Site.Pages "Type" "post" }}
+
+{{ partial "wall.html" (dict "context" . "bricks" $bricks) }}
+
+{{ end }}
