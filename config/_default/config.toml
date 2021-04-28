@@ -1,6 +1,5 @@
 ## Default
 baseURL = "https://milan.bykoga.com"
-languageCode = "pt-br"
 theme = "milan-theme"
 
 ## Localization
