@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://milan.bykoga.com/pt-br/gamedev/test/</loc>
+    <loc>https://milan.bykoga.com/pt-br/gamedev/teste/</loc>
     <lastmod>2021-04-23T19:29:46-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -12,7 +12,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://milan.bykoga.com/pt-br/gamedev/test/"
+                href="https://milan.bykoga.com/pt-br/gamedev/teste/"
                 />
   </url><url>
     <loc>https://milan.bykoga.com/pt-br/arte/</loc>
