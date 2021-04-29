@@ -14,8 +14,15 @@ topics: ["gamedev"]
 tags: []
 
 # Style
-style: "normal"
+style: "postit"
+size: "sm"
 color: "#8EA5AD"
+
+# Custom Classes
+headerClass: ""
+titleClass: ""
+summaryClass: ""
+footerClass: ""
 
 # Thumbnail / Featured
 summary: "bla bla bla bla ble bla"

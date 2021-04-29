@@ -15,7 +15,14 @@ tags: []
 
 # Style
 style: "normal"
+size: "lg"
 color: "#DA95AD"
+
+# Custom Classes
+headerClass: ""
+titleClass: ""
+summaryClass: ""
+footerClass: ""
 
 # Thumbnail / Featured
 summary: ""

@@ -127,3 +127,34 @@ body {
 .brick {
   scroll-snap-align: start;
 }
+
+.bg-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero {
+  width: 100%;
+  min-height: 30vh;
+
+  @include media-breakpoint-up(lg) {
+    width: 35vw;
+  }
+}
+
+.text-shadow {
+  text-shadow: 1px 1px 0.7px $dark, -1px -1px 0.7px $dark, -1px 1px 0.7px $dark, 1px -1px 0.7px $dark;
+}
+
+.gone {
+  display: none;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.post-it {
+  border-style: dashed;
+}

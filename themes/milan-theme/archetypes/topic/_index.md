@@ -10,17 +10,7 @@ draft: false
 
 # Organization
 layout: ""
+
+# Style
+color: "#4DBA58"
 ---
-
-# Tópico
-Essa é a descrição do tópico!
-
--split-
-
-# Posts
-Todos os posts desse tópico
-
--split-
-
-# Rodapé
-Não sei se alguém vai sequer ver isso, mas ok

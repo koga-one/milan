@@ -1,0 +1,19 @@
+<div class="brick card rounded-1 post-it border-2" {{with .Params.color }}style="border-color: {{.}}"{{ end }}>
+    <div class="card-body pt-4 p-4">
+        <h5 class="text-uppercase card-title {{ with .Params.titleClass }}{{ . }}{{ end }}" style="{{ with .Params.textColor }}color: {{ . }}{{ end }}"><i><b>{{ .Title }}</b></i></h5>
+        <p class="card-text {{ with .Params.summaryClass }}{{ . }}{{ end }}" style="{{ with .Params.textColor }}color: {{ . }}{{ end }}">{{ .Summary }}</p>
+    </div>
+    <div class="card-footer border-0 {{ with .Params.footerClass }}{{ . }}{{ end }}">
+        <small>
+            {{ $dateTime := .PublishDate.Format "2006-01-02 15:04 -0700" }}
+            {{ $dateFormat := .Site.Params.dateFormat | default "15:04 - Jan 2, 2006" }}
+            {{ .PublishDate.Format $dateFormat }}
+            <br>
+            {{ if .Params.topics }}
+            {{ range .Params.topics }}
+            <a class="link-blue text-decoration-none" href="{{ urlize . | absLangURL  }}" {{with $.Params.color }}style="color: {{.}}"{{ end }}><b>/{{ . }}</b></a>
+            {{ end }}
+            {{ end }}
+        </small>
+    </div>
+</div>

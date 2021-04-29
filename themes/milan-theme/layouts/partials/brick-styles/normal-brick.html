@@ -1,22 +1,22 @@
-<div class="brick card rounded-0" {{with .Params.color }}style="border-color: {{.}}"{{ end }}>
+<div class="brick card rounded-0 border-2" {{with .Params.color }}style="border-color: {{.}}"{{ end }}>
     {{ if .Params.thumb }}
         {{ $image := $.Page.Resources.GetMatch .Params.thumb }}
         {{ .Scratch.Set "modified-image" ($image.Fit "256x192 jpg q75 Lanczos Smart") }}
         {{ .Scratch.Set "lowres-image" ($image.Fit "256x192 jpg q90") }}
         <img class="lazy" data-src='{{ (.Scratch.Get "modified-image").Permalink }}' src='{{ (.Scratch.Get "lowres-image").Permalink }}' alt='{{ .Params.alt }}'>
     {{ end }}
-    {{ with .Params.topics }}
-    <div class="card-header pt-4 pb-0 px-4 border-0 bg-dark">
-        {{ range . }}
+    {{ if .Params.topics }}
+    <div class="card-header pt-4 pb-0 px-4 border-0 bg-dark {{ with .Params.headerClass }}{{ . }}{{ end }}">
+        {{ range .Params.topics }}
             <a class="link-blue text-decoration-none" href="{{ urlize . | absLangURL  }}" {{with $.Params.color }}style="color: {{.}}"{{ end }}><b>/{{ . }}</b></a>
         {{ end }}
     </div>
     {{ end }}
     <div class="card-body pt-2 p-4">
-        <a class="text-uppercase link-light" href="{{ .Permalink | absLangURL }}"><h4 class="card-title"><i><b>{{ .Title }}</b></i></h4></a>
-        <p class="card-text">{{ .Summary }}</p>
+        <a class="text-uppercase link-light" href="{{ .Permalink | absLangURL }}"><h4 class="card-title {{ with .Params.titleClass }}{{ . }}{{ end }}" style="{{ with .Params.textColor }}color: {{ . }}{{ end }}"><i><b>{{ .Title }}</b></i></h4></a>
+        <p class="card-text {{ with .Params.summaryClass }}{{ . }}{{ end }}" style="{{ with .Params.textColor }}color: {{ . }}{{ end }}">{{ .Summary }}</p>
     </div>
-    <div class="card-footer border-0">
+    <div class="card-footer border-0 {{ with .Params.footerClass }}{{ . }}{{ end }}">
         <small>
             {{ $dateTime := .PublishDate.Format "2006-01-02 15:04 -0700" }}
             {{ $dateFormat := .Site.Params.dateFormat | default "15:04 - Jan 2, 2006" }}

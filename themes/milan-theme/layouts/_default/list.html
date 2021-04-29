@@ -2,15 +2,6 @@
 {{ $bricks := .Pages }}
 
 <section class="list">
-    <h1>list</h1>
-    {{ $content_parts := split .Content "-split-" }}
-    
-    {{ range $index, $val := $content_parts }}
-    <div>
-        {{ $val | safe.HTML }}
-    </div>
-    {{ end }}
-    
-    {{ partial "wall.html" (dict "context" . "bricks" $bricks) }}
+  {{ partial "wall.html" (dict "context" . "bricks" $bricks) }}
 </section>
 {{ end }}

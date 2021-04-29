@@ -1,15 +1,41 @@
 <div class="container wall">
     <div class="row" data-masonry='{"percentPosition": true }'>
         {{ range $index, $post := .bricks }}
+
+            {{ $styleurl := "" }}
+            {{ $sizeurl := "" }}
+
+            <!-- According to style -->
             {{ if eq .Params.style "normal" }}
-                <div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3 gy-3 gx-0 g-sm-2 g-lg-3 g-xl-4">
-                    {{ partial "bricks/normal-brick.html" . }}
-                </div>
+                {{ $styleurl = "brick-styles/normal-brick.html" }}
+            {{ else if eq .Params.style "imagetext" }}
+                {{ $styleurl = "brick-styles/imagetext-brick.html" }}
+            {{ else if eq .Params.style "postit" }}
+                {{ $styleurl = "brick-styles/postit-brick.html" }}
             {{ else }}
-                <div class="col-xs-12 col-sm-6 col-lg-4 col-xl-3 gy-3 gx-0 g-sm-2 g-lg-3 g-xl-4">
-                    {{ partial "bricks/normal-brick.html" . }}
-                </div>
+                {{ $styleurl = "brick-styles/normal-brick.html" }}
             {{ end }}
+
+            <!-- According to size -->
+            {{ if eq .Params.size "sm" }}
+                {{ $sizeurl = "brick-sizes/sm-size.html" }}
+            {{ else if eq .Params.size "md" }}
+                {{ $sizeurl = "brick-sizes/md-size.html" }}
+            {{ else if eq .Params.size "lg" }}
+                {{ $sizeurl = "brick-sizes/lg-size.html" }}
+            {{ else if eq .Params.size "xl" }}
+                {{ $sizeurl = "brick-sizes/xl-size.html" }}
+            {{ else }}
+                {{ $sizeurl = "brick-sizes/md-size.html" }}
+            {{ end }}
+
+            <!-- The pre-call -->
+            <div class="col-1"></div>
+
+            <!-- The call -->
+            <div class='{{ partial $sizeurl }} {{ partial "brick-parts/gutter.html" }}'>
+                {{ partial $styleurl . }}
+            </div>
         {{ end }}
     </div>
 </div>
