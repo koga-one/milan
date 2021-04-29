@@ -1,17 +1,39 @@
 <header id="header">
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark border-bottom border-2 border-primary rounded-3">
-        <div class="container-fluid">
+        <div class="container-fluid d-flex align-items-start">
             <a class="navbar-brand text-primary">
                 <b>byKOGA</b>
                 <!--img src="/logo.png" alt="" width="30" height="24"-->
             </a>
+            <ul class="navbar-nav me-auto me-lg-0">
+                {{ range .Site.Languages }}
+                {{ if eq . $.Site.Language }}
+                <li class="nav-item dropdown">
+                    <a role="button" class="nav-link text-primary dropdown-toggle" data-bs-toggle="dropdown"
+                        aria-expanded="false" aria-label='{{ i18n " ariaLanguage" }}{{ .LanguageName }}'>
+                        {{ .LanguageName }}
+                    </a>
+                    {{ end }}
+                    {{ end }}
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                        {{ range $.Translations }}
+                        <li>
+                            <a title="{{ .Language.LanguageName }}" class="dropdown-item" href="{{ .Permalink }}"
+                                aria-label='{{ i18n " ariaTranslation" }}{{ .Language.LanguageName }}'>
+                                {{ .Language.LanguageName }}
+                            </a>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </li>
+            </ul>
             <button class="navbar-toggler btn btn-primary" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto">
+                <ul class="navbar-nav ms-lg-auto">
                     {{- $currentPage := . -}}
                     {{ range sort .Site.Menus.main "Weight" -}}
                     {{ $isMenuCurrent := eq (.URL | relLangURL) $currentPage.RelPermalink }}
@@ -20,7 +42,7 @@
                         <a role="button" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                             {{ .Name }}
                         </a>
-                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDropdown">
+                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark" aria-labelledby="navbarDropdown">
                             {{ range sort .Children "Weight" }}
                             <li>
                                 <a class="dropdown-item" href="{{ .URL | absLangURL }}">
@@ -39,37 +61,6 @@
                     {{ end }}
                     
                     {{- end }}
-            </div>
-        </div>
-        <div class="container-fluid">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                    {{ range .Site.Languages }}
-                    {{ if eq . $.Site.Language }}
-                    <li class="nav-item dropdown">
-                        <a role="button" class="nav-link text-primary dropdown-toggle" data-bs-toggle="dropdown"
-                            aria-expanded="false" aria-label='{{ i18n " ariaLanguage" }}{{ .LanguageName }}'>
-                            {{ .LanguageName }}
-                        </a>
-                        {{ end }}
-                        {{ end }}
-                        <ul class="dropdown-menu dropdown-menu-end dropdown-menu-dark" aria-labelledby="navbarDropdown">
-                            {{ range $.Translations }}
-                            <li>
-                                <a title="{{ .Language.LanguageName }}" class="dropdown-item" href="{{ .Permalink }}"
-                                    aria-label='{{ i18n " ariaTranslation" }}{{ .Language.LanguageName }}'>
-                                    {{ .Language.LanguageName }}
-                                </a>
-                            </li>
-                            {{ end }}
-                        </ul>
-                    </li>
-                </ul>
-                <!--form class="d-flex">
-                            <input class="form-control me-2 text-dark" type="search"
-                                placeholder='{{ i18n "searchPlaceholder" }}' aria-label="Search">
-                            <button class="btn btn-outline-primary" type="submit">{{ i18n "search" }}</button>
-                        </form-->
             </div>
         </div>
     </nav>

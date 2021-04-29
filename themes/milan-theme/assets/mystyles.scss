@@ -33,6 +33,10 @@ $list-group-color:                  $light;
 $list-group-bg:                     $dark;
 $list-group-border-color:           rgba($light, .125);
 
+// Dropdowns
+$dropdown-min-width:                5rem;
+$dropdown-padding-y:                .2rem;
+
 .link-blue {
   color: $link-blue;
 }
