@@ -1,0 +1,23 @@
+{{ $image := $.Page.Resources.GetMatch (.Get "path") }}
+
+{{ $size := .Get "size"}}
+{{ $options := .Get "options"}}
+{{ $added := print $size " " $options}}
+{{ $method := .Get "method" }}
+{{ $col := .Get "col" }}
+{{ $alt := .Get "alt" }}
+
+{{ if eq $method "Fill" }}
+    {{ .Scratch.Set "modified-image" ($image.Fill $added) }}
+{{ else if eq $method "Fit" }}
+    {{ .Scratch.Set "modified-image" ($image.Fit $added) }}
+{{ else if eq $method "Resize" }}
+    {{ .Scratch.Set "modified-image" ($image.Resize $added) }}
+{{ end }}
+
+<div class="d-flex flex-column col-12 col-md-{{ $col }} gx-0 gy-3 g-md-3">
+    <img class='lazy' data-src='{{ (.Scratch.Get "modified-image").Permalink }}' src='{{ (.Scratch.Get "modified-image").Permalink }}' alt='{{ $alt }}' title='{{ $alt }}'>
+    <small class="py-1 bg-gray text-center">{{ $alt }}</small>
+</div>
+
+{{/* < imgproc path="images/numerussc.jpg" method="Fill" size="1920x1080" > */}}

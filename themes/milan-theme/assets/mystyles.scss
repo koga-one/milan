@@ -144,7 +144,7 @@ body {
 }
 
 .text-shadow {
-  text-shadow: 1px 1px 0.7px $dark, -1px -1px 0.7px $dark, -1px 1px 0.7px $dark, 1px -1px 0.7px $dark;
+  text-shadow: 1px 1px 1px $dark, -1px -1px 1px $dark, -1px 1px 1px $dark, 1px -1px 1px $dark;
 }
 
 .gone {
@@ -157,4 +157,21 @@ body {
 
 .post-it {
   border-style: dashed;
+}
+
+.card-horizontal-image {
+  overflow: hidden;
+}
+
+.sans-serif {
+  font-family: $font-family-sans-serif;
+}
+
+.text-decoration-sm {
+  text-underline-offset: 0.3em;
+  text-decoration-thickness: 1px;
+}
+
+.bg-gray {
+  background-color: rgba(219,219,219,0.03);
 }

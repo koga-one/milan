@@ -4,6 +4,7 @@
     title = "Meu blog"
     weight = 1
     dateFormat = "15:04 - 02/01/06"
+    shortDateFormat = "02/01/06"
     contentDir = "content/portugues"
     [pt-br.Taxonomies]
         topic = "topicos"
@@ -37,6 +38,7 @@
     title = "My blog"
     weight = 2
     dateFormat = "15:04 - Jan 2, 06"
+    shortDateFormat = "Jan 2, 06"
     contentDir = "content/english"
     [en.Taxonomies]
         topic = "topics"

@@ -14,7 +14,7 @@ topics: ["gamedev"]
 tags: []
 
 # Style
-style: "postit"
+style: "whisper"
 size: "sm"
 color: "#8EA5AD"
 

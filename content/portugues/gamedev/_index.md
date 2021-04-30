@@ -10,7 +10,4 @@ draft: false
 
 # Organization
 layout: ""
-
-# Style
-color: "#4DBA58"
 ---

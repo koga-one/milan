@@ -3,7 +3,7 @@
 title: "Ludum Dare 48"
 type: "post"
 date: 2021-04-23T16:54:23-03:00
-translationKey: "Ludum Dare 48"
+translationKey: "Ludum Dare 49"
 
 # Scheduling
 draft: false
@@ -23,4 +23,4 @@ thumb: "images/snow.jpg"
 alt: "Esse é o placeholder"
 ---
 
-Ludum Dare 48!
+{{< imgproc path="images/snow.jpg" method="Fill" size="1920x1080" col="1" >}}

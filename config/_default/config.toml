@@ -10,3 +10,6 @@ disableKinds = ["taxonomy", "term"]
 ## Media
 # https://www.webfx.com/tools/emoji-cheat-sheet/
 enableEmoji = true
+
+[markup.goldmark.renderer]
+    unsafe= true

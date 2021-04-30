@@ -18,7 +18,6 @@ style: "imagetext"
 size: "xl"
 color: ""
 textColor: "#fff"
-protected: true
 weight: "1"
 
 # Custom Classes
@@ -32,5 +31,3 @@ summary: ""
 thumb: ""
 alt: ""
 ---
-
-Ludum Dare 48!

@@ -18,7 +18,6 @@ style: "imagetext"
 size: "xl"
 color: "#4B23FF"
 textColor: "#fff"
-protected: true
 weight: "1"
 
 # Custom Classes
@@ -32,5 +31,3 @@ summary: "Coding principles, management tips, useful programs and tools… Oh, a
 thumb: "images/hackathon.jpg"
 alt: "Hackathon"
 ---
-
-Ludum Dare 48!
