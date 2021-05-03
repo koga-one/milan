@@ -1,7 +1,7 @@
 [pt-br]
     home = "/pt-br"
     LanguageName = "pt-br"
-    title = "Meu blog"
+    title = "bykoga"
     weight = 2
     dateFormat = "15:04 - 02/01/06"
     shortDateFormat = "02/01/06"
@@ -45,7 +45,7 @@
 [en]
     home = "/en"
     LanguageName = "en"
-    title = "My blog"
+    title = "bykoga"
     weight = 1
     dateFormat = "15:04 - Jan 2, 06"
     shortDateFormat = "Jan 2, 06"

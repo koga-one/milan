@@ -1,7 +1,7 @@
 <div class="brick card rounded-0 border-3" {{with .Params.color }}style="border-color: {{.}}"{{ end }}>
     {{ if .Params.thumb }}
         {{ $image := $.Page.Resources.GetMatch .Params.thumb }}
-        {{ .Scratch.Set "lowres-image" ($image.Fit "256x192 jpg q90 Lanczos Smart") }}
+        {{ .Scratch.Set "lowres-image" ($image.Fit "256x192 jpg q70 Lanczos Smart") }}
         <img class="lazy" src='{{ (.Scratch.Get "lowres-image").Permalink }}' alt='{{ .Params.alt }}'>
     {{ end }}
     {{ if .Params.topics }}

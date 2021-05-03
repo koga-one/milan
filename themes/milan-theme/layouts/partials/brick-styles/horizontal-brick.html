@@ -3,7 +3,7 @@
         <div class="col-md-4 overflow-hidden bg-image"
         style='{{ if .Params.thumb }}
         {{ $image := $.Page.Resources.GetMatch .Params.thumb }}
-        {{ .Scratch.Set "lowres-image" ($image.Fill "192x300 jpg q90") }}
+        {{ .Scratch.Set "lowres-image" ($image.Fill "192x300 jpg q70") }}
         background-image: url({{ (.Scratch.Get "lowres-image").Permalink }})
         {{ end }}'>
         </div>

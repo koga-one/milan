@@ -8,7 +8,7 @@
     {{ end }}
     {{ if .Params.thumb }}
         {{ $image := $.Page.Resources.GetMatch .Params.thumb }}
-        {{ .Scratch.Set "lowres-image" ($image.Fit "400x500 jpg q90 Lanczos Smart") }}
+        {{ .Scratch.Set "lowres-image" ($image.Fit "400x500 jpg q80 Lanczos Smart") }}
         <a href="{{ .Params.link }}"><img class="lazy" src='{{ (.Scratch.Get "lowres-image").Permalink }}' alt='{{ .Params.alt }}'></a>
     {{ end }}
     <div class="p-0 card-body">
