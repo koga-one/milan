@@ -2,70 +2,70 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Meu blog</title>
-    <link>https://milan.bykoga.com/pt-br/</link>
+    <link>https://bykoga.com/pt-br/</link>
     <description>Recent content on Meu blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 03 May 2021 11:52:28 -0300</lastBuildDate><atom:link href="https://milan.bykoga.com/pt-br/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 May 2021 11:52:28 -0300</lastBuildDate><atom:link href="https://bykoga.com/pt-br/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jornal</title>
-      <link>https://milan.bykoga.com/pt-br/jornal/banner/</link>
+      <link>https://bykoga.com/pt-br/jornal/banner/</link>
       <pubDate>Fri, 30 Apr 2021 19:31:50 -0300</pubDate>
       
-      <guid>https://milan.bykoga.com/pt-br/jornal/banner/</guid>
+      <guid>https://bykoga.com/pt-br/jornal/banner/</guid>
       <description>“Mantenha um diário, e algum dia ele te manterá.” – Mae West</description>
     </item>
     
     <item>
       <title>Game dev</title>
-      <link>https://milan.bykoga.com/pt-br/gamedev/banner/</link>
+      <link>https://bykoga.com/pt-br/gamedev/banner/</link>
       <pubDate>Fri, 30 Apr 2021 19:20:39 -0300</pubDate>
       
-      <guid>https://milan.bykoga.com/pt-br/gamedev/banner/</guid>
+      <guid>https://bykoga.com/pt-br/gamedev/banner/</guid>
       <description>“Todo jogo me aproxima mais e mais do que eu imagino. É por isso que eu não consigo parar de criar jogos.” – Kojima Hideo</description>
     </item>
     
     <item>
       <title>Arte</title>
-      <link>https://milan.bykoga.com/pt-br/arte/banner/</link>
+      <link>https://bykoga.com/pt-br/arte/banner/</link>
       <pubDate>Fri, 30 Apr 2021 19:11:56 -0300</pubDate>
       
-      <guid>https://milan.bykoga.com/pt-br/arte/banner/</guid>
+      <guid>https://bykoga.com/pt-br/arte/banner/</guid>
       <description>“Eu descobri que podia dizer com cores e formas coisas inexplicáveis de qualquer outra forma - coisas que eu não tinha palavras para descrever” – Georgia O&amp;rsquo;Keeffe</description>
     </item>
     
     <item>
       <title>Cake</title>
-      <link>https://milan.bykoga.com/pt-br/arte/cake/</link>
+      <link>https://bykoga.com/pt-br/arte/cake/</link>
       <pubDate>Mon, 03 May 2021 11:52:28 -0300</pubDate>
       
-      <guid>https://milan.bykoga.com/pt-br/arte/cake/</guid>
+      <guid>https://bykoga.com/pt-br/arte/cake/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hello World</title>
-      <link>https://milan.bykoga.com/pt-br/jornal/hello-world/</link>
+      <link>https://bykoga.com/pt-br/jornal/hello-world/</link>
       <pubDate>Fri, 30 Apr 2021 19:55:12 -0300</pubDate>
       
-      <guid>https://milan.bykoga.com/pt-br/jornal/hello-world/</guid>
+      <guid>https://bykoga.com/pt-br/jornal/hello-world/</guid>
       <description>&lt;b&gt;&lt;i&gt;Hello World!&lt;/i&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;Tudo começa daqui</description>
     </item>
     
     <item>
       <title>Erro 404</title>
-      <link>https://milan.bykoga.com/pt-br/404/</link>
+      <link>https://bykoga.com/pt-br/404/</link>
       <pubDate>Fri, 30 Apr 2021 18:52:22 -0300</pubDate>
       
-      <guid>https://milan.bykoga.com/pt-br/404/</guid>
+      <guid>https://bykoga.com/pt-br/404/</guid>
       <description>Hm, eu acho que você está no lugar errado&amp;hellip; Você deveria voltar para o menu principal para checar meus posts recentes!</description>
     </item>
     
     <item>
       <title>Sobre</title>
-      <link>https://milan.bykoga.com/pt-br/sobre/</link>
+      <link>https://bykoga.com/pt-br/sobre/</link>
       <pubDate>Fri, 30 Apr 2021 16:21:43 -0300</pubDate>
       
-      <guid>https://milan.bykoga.com/pt-br/sobre/</guid>
+      <guid>https://bykoga.com/pt-br/sobre/</guid>
       <description>Nada aqui&amp;hellip; por enquanto!
 Culpe o Koga.</description>
     </item>

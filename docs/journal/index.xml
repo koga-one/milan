@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Journal on My blog</title>
-    <link>https://milan.bykoga.com/journal/</link>
+    <link>https://bykoga.com/journal/</link>
     <description>Recent content in Journal on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 30 Apr 2021 19:31:50 -0300</lastBuildDate><atom:link href="https://milan.bykoga.com/journal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Apr 2021 19:31:50 -0300</lastBuildDate><atom:link href="https://bykoga.com/journal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Journal</title>
-      <link>https://milan.bykoga.com/journal/banner/</link>
+      <link>https://bykoga.com/journal/banner/</link>
       <pubDate>Fri, 30 Apr 2021 19:31:50 -0300</pubDate>
       
-      <guid>https://milan.bykoga.com/journal/banner/</guid>
+      <guid>https://bykoga.com/journal/banner/</guid>
       <description>“Keep a diary, and someday it&amp;rsquo;ll keep you.” – Mae West</description>
     </item>
     
     <item>
       <title>Hello World</title>
-      <link>https://milan.bykoga.com/journal/hello-world/</link>
+      <link>https://bykoga.com/journal/hello-world/</link>
       <pubDate>Fri, 30 Apr 2021 19:55:12 -0300</pubDate>
       
-      <guid>https://milan.bykoga.com/journal/hello-world/</guid>
+      <guid>https://bykoga.com/journal/hello-world/</guid>
       <description>&lt;b&gt;Hello World!&lt;/b&gt;&lt;br&gt;&lt;br&gt;Everything starts from here</description>
     </item>
     

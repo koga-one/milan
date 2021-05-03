@@ -2,61 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My blog</title>
-    <link>https://milan.bykoga.com/</link>
+    <link>https://bykoga.com/</link>
     <description>Recent content on My blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 03 May 2021 11:52:28 -0300</lastBuildDate><atom:link href="https://milan.bykoga.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 May 2021 11:52:28 -0300</lastBuildDate><atom:link href="https://bykoga.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Journal</title>
-      <link>https://milan.bykoga.com/journal/banner/</link>
+      <link>https://bykoga.com/journal/banner/</link>
       <pubDate>Fri, 30 Apr 2021 19:31:50 -0300</pubDate>
       
-      <guid>https://milan.bykoga.com/journal/banner/</guid>
+      <guid>https://bykoga.com/journal/banner/</guid>
       <description>“Keep a diary, and someday it&amp;rsquo;ll keep you.” – Mae West</description>
     </item>
     
     <item>
       <title>Game dev</title>
-      <link>https://milan.bykoga.com/gamedev/banner/</link>
+      <link>https://bykoga.com/gamedev/banner/</link>
       <pubDate>Fri, 30 Apr 2021 19:20:39 -0300</pubDate>
       
-      <guid>https://milan.bykoga.com/gamedev/banner/</guid>
+      <guid>https://bykoga.com/gamedev/banner/</guid>
       <description>“Every game brings me closer and closer to making what I imagine, that&amp;rsquo;s why I could never stop making games.” – Kojima Hideo</description>
     </item>
     
     <item>
       <title>Art</title>
-      <link>https://milan.bykoga.com/art/banner/</link>
+      <link>https://bykoga.com/art/banner/</link>
       <pubDate>Fri, 30 Apr 2021 19:11:56 -0300</pubDate>
       
-      <guid>https://milan.bykoga.com/art/banner/</guid>
+      <guid>https://bykoga.com/art/banner/</guid>
       <description>“I found I could say things with color and shapes that I couldn&amp;rsquo;t say any other way - things I had no words for.” – Georgia O&amp;rsquo;Keeffe</description>
     </item>
     
     <item>
       <title>Cake</title>
-      <link>https://milan.bykoga.com/art/cake/</link>
+      <link>https://bykoga.com/art/cake/</link>
       <pubDate>Mon, 03 May 2021 11:52:28 -0300</pubDate>
       
-      <guid>https://milan.bykoga.com/art/cake/</guid>
+      <guid>https://bykoga.com/art/cake/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hello World</title>
-      <link>https://milan.bykoga.com/journal/hello-world/</link>
+      <link>https://bykoga.com/journal/hello-world/</link>
       <pubDate>Fri, 30 Apr 2021 19:55:12 -0300</pubDate>
       
-      <guid>https://milan.bykoga.com/journal/hello-world/</guid>
+      <guid>https://bykoga.com/journal/hello-world/</guid>
       <description>&lt;b&gt;Hello World!&lt;/b&gt;&lt;br&gt;&lt;br&gt;Everything starts from here</description>
     </item>
     
     <item>
       <title>Portfolio</title>
-      <link>https://milan.bykoga.com/portfolio/</link>
+      <link>https://bykoga.com/portfolio/</link>
       <pubDate>Fri, 30 Apr 2021 19:39:40 -0300</pubDate>
       
-      <guid>https://milan.bykoga.com/portfolio/</guid>
+      <guid>https://bykoga.com/portfolio/</guid>
       <description>HELLO WORLD! I&amp;rsquo;m André Koga, a 18yr old Brazilian startup founder, game developer, web designer, digital artist, sports lover, scientific Olympiads medalist, and owner of two dogs. Nice to meet you!
 Want to send a message?
 -split-
@@ -65,19 +65,19 @@ Want to send a message?
     
     <item>
       <title>404 Error</title>
-      <link>https://milan.bykoga.com/404/</link>
+      <link>https://bykoga.com/404/</link>
       <pubDate>Fri, 30 Apr 2021 18:52:22 -0300</pubDate>
       
-      <guid>https://milan.bykoga.com/404/</guid>
+      <guid>https://bykoga.com/404/</guid>
       <description>Um, I think you weren&amp;rsquo;t supposed to be here&amp;hellip; You should go back to the main menu to check my recent posts!</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>https://milan.bykoga.com/about/</link>
+      <link>https://bykoga.com/about/</link>
       <pubDate>Fri, 30 Apr 2021 16:21:43 -0300</pubDate>
       
-      <guid>https://milan.bykoga.com/about/</guid>
+      <guid>https://bykoga.com/about/</guid>
       <description>Nothing to see here&amp;hellip; Yet!
 Blame Koga.</description>
     </item>
