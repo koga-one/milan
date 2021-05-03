@@ -12,6 +12,11 @@
 [TOC-Title]
   other = "Nessa página"
 
+[404-Title]
+  other = "Erro 404"
+[404-Description]
+  other = "Hmm, você não deveria estar aqui... Volte ao menu principal para ver meus posts mais recentes!"
+
 # Posts
 [wordCount]
   other = "Esse artigo tem {{ .WordCount }} palavras"

@@ -12,6 +12,11 @@
 [TOC-Title]
   other = "On this page"
 
+[404-Title]
+  other = "404 Error"
+[404-Description]
+  other = "Um, I think you weren’t supposed to be here… You should go back to the main menu to check my recent posts!"
+
 # Posts
 [wordCount]
   other = "This article has {{ .WordCount }} words"
