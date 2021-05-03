@@ -1,33 +1,33 @@
 ---
 # Essential settings
-title: "GameDev"
+title: "Game dev"
 type: "banner"
-date: 2021-04-23T16:54:23-03:00
-translationKey: "Banner"
+date: 2021-04-30T19:20:39-03:00
+translationKey: "Gamedev"
 
 # Scheduling
 draft: false
 
 # Organization
 layout:
-topics: ["gamedev"]
+topics: [""]
 tags: []
 
 # Style
 style: "imagetext"
 size: "xl"
-color: "#4B23FF"
-textColor: "#fff"
+color: ""
+textColor: ""
 weight: "1"
 
 # Custom Classes
 headerClass: "gone"
 titleClass: "pt-3 display-1"
-summaryClass: "pb-3"
+summaryClass: ""
 footerClass: "gone"
 
 # Thumbnail / Featured
-summary: "Coding principles, management tips, useful programs and tools… Oh, and my game projects, of course!"
-thumb: "images/hackathon.jpg"
-alt: "Hackathon"
+summary: "“Todo jogo me aproxima mais e mais do que eu imagino. É por isso que eu não consigo parar de criar jogos.” – Kojima Hideo"
+thumb: "images/controller.jpg"
+alt: ""
 ---

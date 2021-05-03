@@ -1,1 +1,37 @@
-404!
+{{ define "main" }}
+
+{{ $posts := where .Site.Pages "Type" "404" }}
+
+{{ range $posts }}
+{{ $content_parts := split .Content "-split-" }}
+
+<section class="single card rounded-0 border-3" {{with .Params.color }}style="border-color: {{.}}"{{ end }}>
+    <div class="card-header p-4 p-lg-5 border-0 {{ with .Params.headerClass }}{{ . }}{{ end }}">
+        {{ if .Params.topics }}
+            {{ range .Params.topics }}
+                <a class="link-blue text-decoration-none" href="{{ urlize . | absLangURL  }}" {{with $.Params.color }}style="color: {{.}}"{{ end }}><b>/{{ . }}</b></a>
+            {{ end }}
+        {{ end }}
+        <h1 class="display-1 card-title {{ with .Params.titleClass }}{{ . }}{{ end }}" style="{{ with .Params.textColor }}color: {{ . }}{{ end }}"><i><b>{{ .Title }}</b></i></h1>
+        {{ if .Params.subtitle }}
+            <h2 class="display-6 card-subtitle text-muted {{ with .Params.titleClass }}{{ . }}{{ end }}" style="{{ with .Params.textColor }}color: {{ . }}{{ end }}"><i><b>{{ .Params.subtitle }}</b></i></h2>
+        {{ end }}
+    </div>
+    <div class="card-body p-4 p-lg-5" style="{{ with .Params.textColor }}color: {{ . }}{{ end }}">
+        {{ range $index, $val := $content_parts }}
+            {{ . | safeHTML }}
+        {{ end }}
+    </div>
+    {{ if eq .Type "post" }}
+    <div class="card-footer border-0 {{ with .Params.footerClass }}{{ . }}{{ end }}">
+        <small class="text-muted">
+     
+            {{ $dateFormat := .Site.Params.dateFormat | default "15:04 - Jan 2, 2006" }}
+            {{ .PublishDate.Format $dateFormat }}
+        </small>
+    </div>
+    {{ end }}
+</section>
+
+{{ end }}
+{{ end }}

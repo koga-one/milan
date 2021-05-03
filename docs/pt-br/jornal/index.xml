@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jornal on Meu blog</title>
+    <link>https://milan.bykoga.com/pt-br/jornal/</link>
+    <description>Recent content in Jornal on Meu blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 30 Apr 2021 19:31:50 -0300</lastBuildDate><atom:link href="https://milan.bykoga.com/pt-br/jornal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jornal</title>
+      <link>https://milan.bykoga.com/pt-br/jornal/banner/</link>
+      <pubDate>Fri, 30 Apr 2021 19:31:50 -0300</pubDate>
+      
+      <guid>https://milan.bykoga.com/pt-br/jornal/banner/</guid>
+      <description>“Mantenha um diário, e algum dia ele te manterá.” – Mae West</description>
+    </item>
+    
+    <item>
+      <title>Hello World</title>
+      <link>https://milan.bykoga.com/pt-br/jornal/hello-world/</link>
+      <pubDate>Fri, 30 Apr 2021 19:55:12 -0300</pubDate>
+      
+      <guid>https://milan.bykoga.com/pt-br/jornal/hello-world/</guid>
+      <description>&lt;b&gt;&lt;i&gt;Hello World!&lt;/i&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;Tudo começa daqui</description>
+    </item>
+    
+  </channel>
+</rss>

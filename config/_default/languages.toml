@@ -2,9 +2,10 @@
     home = "/pt-br"
     LanguageName = "pt-br"
     title = "Meu blog"
-    weight = 1
+    weight = 2
     dateFormat = "15:04 - 02/01/06"
     shortDateFormat = "02/01/06"
+    shortestDateFormat = "02/01"
     contentDir = "content/portugues"
     [pt-br.Taxonomies]
         topic = "topicos"
@@ -17,6 +18,10 @@
             weight = 10
             name = "Sobre"
             url = "/sobre/"
+        [[pt-br.menu.main]]
+            weight = 15
+            name = "Portfólio"
+            url = "/portfolio/"
         [[pt-br.menu.main]]
             weight = 20
             name = "Tópicos"
@@ -31,14 +36,22 @@
                 weight = 10
                 name = "Game Dev"
                 url = "/gamedev"
+            [[pt-br.menu.main]]
+                parent = "topics"
+                weight = 20
+                name = "Jornal"
+                url = "/jornal"
 
 [en]
     home = "/en"
     LanguageName = "en"
     title = "My blog"
-    weight = 2
+    weight = 1
     dateFormat = "15:04 - Jan 2, 06"
     shortDateFormat = "Jan 2, 06"
+    shortestDateFormat = "Jan 2"
+    diaryStartFormat = "January"
+    diaryEndFormat = "2"
     contentDir = "content/english"
     [en.Taxonomies]
         topic = "topics"
@@ -50,9 +63,13 @@
         [[en.menu.main]]
             name = "About"
             url = "/about/"
-            weight = 1
+            weight = 10
         [[en.menu.main]]
-            weight = 2
+            weight = 15
+            name = "Portfolio"
+            url = "/portfolio/"
+        [[en.menu.main]]
+            weight = 20
             name = "Topics"
             identifier = "topics"
             [[en.menu.main]]
@@ -65,3 +82,8 @@
                 weight = 10
                 name = "Game Dev"
                 url = "/gamedev"
+            [[en.menu.main]]
+                parent = "topics"
+                weight = 20
+                name = "Journal"
+                url = "/journal"

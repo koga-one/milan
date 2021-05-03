@@ -9,10 +9,13 @@ translationKey: "{{ replace .Name "-" " " | title }}"
 # Scheduling
 draft: true
 
+# Organization
+layout:
+
 # Style
 color: ""
 textColor: ""
 
-# Organization
-layout:
+# Thumbnail / Featured
+thumb: "images/Placeholder.jpg"
 ---

@@ -8,6 +8,10 @@
 [footerDescription]
   other = "todos os direitos reservados"
 
+# TOC
+[TOC-Title]
+  other = "Nessa página"
+
 # Posts
 [wordCount]
   other = "Esse artigo tem {{ .WordCount }} palavras"

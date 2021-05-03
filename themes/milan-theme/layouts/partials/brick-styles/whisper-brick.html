@@ -1,11 +1,11 @@
-<div class="brick card rounded-1 post-it border-2" {{with .Params.color }}style="border-color: {{.}}"{{ end }}>
+<div class="brick card rounded-1 post-it border-3" {{with .Params.color }}style="border-color: {{.}}"{{ end }}>
     <div class="card-body pt-4 p-4">
         <h5 class="text-uppercase card-title {{ with .Params.titleClass }}{{ . }}{{ end }}" style="{{ with .Params.textColor }}color: {{ . }}{{ end }}"><i><b>{{ .Title }}</b></i></h5>
-        <p class="card-text m-0 {{ with .Params.summaryClass }}{{ . }}{{ end }}" style="{{ with .Params.textColor }}color: {{ . }}{{ end }}">{{ .Content }}</p>
+        <p class="card-text m-0 text-muted {{ with .Params.summaryClass }}{{ . }}{{ end }}" style="{{ with .Params.textColor }}color: {{ . }}{{ end }}">{{ .Content }}</p>
     </div>
     <div class="card-footer border-0 {{ with .Params.footerClass }}{{ . }}{{ end }}">
         <small class="text-muted">
-            {{ $dateTime := .PublishDate.Format "2006-01-02 15:04 -0700" }}
+     
             {{ $dateFormat := .Site.Params.shortDateFormat | default "15:04 - Jan 2, 2006" }}
             {{ .PublishDate.Format $dateFormat }}
             <br>

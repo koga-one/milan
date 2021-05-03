@@ -2,8 +2,8 @@
 # Essential settings
 title: "Art"
 type: "page"
-date: 2021-04-23T18:41:19-03:00
-translationKey: "Arte"
+date: 2021-04-30T19:11:56-03:00
+translationKey: "Art"
 
 # Scheduling
 draft: false
@@ -11,16 +11,3 @@ draft: false
 # Organization
 layout: ""
 ---
-
-# Tópico
-Essa é a descrição do tópico!
-
--split-
-
-# Posts
-Todos os posts desse tópico
-
--split-
-
-# Rodapé
-Não sei se alguém vai sequer ver isso, mas ok

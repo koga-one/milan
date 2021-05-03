@@ -1,9 +1,8 @@
-<div class="brick card rounded-0 border-2" {{with .Params.color }}style="border-color: {{.}}"{{ end }}>
+<div class="brick card rounded-0 border-3" {{with .Params.color }}style="border-color: {{.}}"{{ end }}>
     <div class="row g-0" style="min-height: 250px">
         <div class="col-md-4 overflow-hidden bg-image"
         style='{{ if .Params.thumb }}
         {{ $image := $.Page.Resources.GetMatch .Params.thumb }}
-        {{ .Scratch.Set "modified-image" ($image.Fill "192x300 jpg q75 Lanczos Smart") }}
         {{ .Scratch.Set "lowres-image" ($image.Fill "192x300 jpg q90") }}
         background-image: url({{ (.Scratch.Get "lowres-image").Permalink }})
         {{ end }}'>
@@ -19,10 +18,10 @@
                 {{ end }}
 
                 <a class="text-uppercase link-light" href="{{ .Permalink | absLangURL }}"><h4 class="card-title {{ with .Params.titleClass }}{{ . }}{{ end }}" style="{{ with .Params.textColor }}color: {{ . }}{{ end }}"><i><b>{{ .Title }}</b></i></h4></a>
-                <p class="card-text {{ with .Params.summaryClass }}{{ . }}{{ end }}" style="{{ with .Params.textColor }}color: {{ . }}{{ end }}">{{ .Summary }}</p>
+                <p class="card-text text-muted {{ with .Params.summaryClass }}{{ . }}{{ end }}" style="{{ with .Params.textColor }}color: {{ . }}{{ end }}">{{ .Summary }}</p>
 
                 <small class="text-muted">
-                    {{ $dateTime := .PublishDate.Format "2006-01-02 15:04 -0700" }}
+             
                     {{ $dateFormat := .Site.Params.dateFormat | default "15:04 - Jan 2, 2006" }}
                     {{ .PublishDate.Format $dateFormat }}
                 </small>

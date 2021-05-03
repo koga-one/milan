@@ -10,12 +10,16 @@
                 {{ $styleurl = "brick-styles/normal-brick.html" }}
             {{ else if eq .Params.style "imagetext" }}
                 {{ $styleurl = "brick-styles/imagetext-brick.html" }}
+            {{ else if eq .Params.style "image" }}
+                {{ $styleurl = "brick-styles/image-brick.html" }}
             {{ else if eq .Params.style "whisper" }}
                 {{ $styleurl = "brick-styles/whisper-brick.html" }}
             {{ else if eq .Params.style "horizontal" }}
                 {{ $styleurl = "brick-styles/horizontal-brick.html" }}
             {{ else if eq .Params.style "display" }}
                 {{ $styleurl = "brick-styles/display-brick.html" }}
+            {{ else if eq .Params.style "diary" }}
+                {{ $styleurl = "brick-styles/diary-brick.html" }}
             {{ else }}
                 {{ $styleurl = "brick-styles/normal-brick.html" }}
             {{ end }}

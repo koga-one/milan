@@ -1,0 +1,25 @@
+<div class="brick card rounded-0 border-3" {{with .Params.color }}style="border-color: {{.}}"{{ end }}>
+    {{ if .Params.thumb }}
+        {{ $image := $.Page.Resources.GetMatch .Params.thumb }}
+        {{ .Scratch.Set "lowres-image" ($image.Fit "256x192 jpg q90 Lanczos Smart") }}
+        <img class="lazy" src='{{ (.Scratch.Get "lowres-image").Permalink }}' alt='{{ .Params.alt }}'>
+    {{ end }}
+    {{ if .Params.topics }}
+    <div class="card-header pt-4 pb-0 px-4 border-0 bg-dark {{ with .Params.headerClass }}{{ . }}{{ end }}">
+ 
+        {{ $dateFormat := .Site.Params.shortestDateFormat | default "15:04 - Jan 2, 2006" }}
+        <h1 class="display-5 text-muted">{{ .PublishDate.Format $dateFormat }}</h1>
+    </div>
+    {{ end }}
+    <div class="card-body pt-2 p-4">
+        <a class="link-light text-uppercase" href="{{ .Permalink | absLangURL }}"><h5 class="card-title {{ with .Params.titleClass }}{{ . }}{{ end }}" style="{{ with .Params.textColor }}color: {{ . }}{{ end }}"><i><b>{{ .Title }}</b></i></h5></a>
+        <p class="card-text text-muted {{ with .Params.summaryClass }}{{ . }}{{ end }}" style="{{ with .Params.textColor }}color: {{ . }}{{ end }}">{{ .Summary }}</p>
+    </div>
+    <div class="card-footer border-0 {{ with .Params.footerClass }}{{ . }}{{ end }}">
+        <small class="text-muted">
+            {{ range .Params.topics }}
+                <a class="link-blue text-decoration-none" href="{{ urlize . | absLangURL  }}" {{with $.Params.color }}style="color: {{.}}"{{ end }}><b>/{{ . }}</b></a>
+            {{ end }}
+        </small>
+    </div>
+</div>

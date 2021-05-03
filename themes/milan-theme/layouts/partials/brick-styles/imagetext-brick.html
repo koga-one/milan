@@ -1,6 +1,5 @@
-<div class="brick card rounded-0 bg-image border-2" style='{{with .Params.color }} border-color: {{.}} {{ end }}; {{ if .Params.thumb }}
+<div class="brick card rounded-0 bg-image border-3" style='{{with .Params.color }} border-color: {{.}} {{ end }}; {{ if .Params.thumb }}
 {{ $image := $.Page.Resources.GetMatch .Params.thumb }}
-{{ .Scratch.Set "modified-image" ($image.Fit "700x400 jpg q75 Lanczos Smart") }}
 {{ .Scratch.Set "lowres-image" ($image.Fit "700x400 jpg q90") }}
 background-image: url({{ (.Scratch.Get "lowres-image").Permalink }})
 {{ end }}'>
@@ -21,7 +20,7 @@ background-image: url({{ (.Scratch.Get "lowres-image").Permalink }})
     </div>
     <div class="card-footer border-0 {{ with .Params.footerClass }}{{ . }}{{ end }}">
         <small class="text-shadow">
-            {{ $dateTime := .PublishDate.Format "2006-01-02 15:04 -0700" }}
+     
             {{ $dateFormat := .Site.Params.dateFormat | default .Site.Language.Params.dateformat }}
             {{ .PublishDate.Format $dateFormat }}
         </small>

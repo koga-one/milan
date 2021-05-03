@@ -1,0 +1,26 @@
+#single-content {
+    p, li, ul, ol{
+        color: #A3A7C2;
+    }
+
+    strong, b {
+        color: $light;
+    }
+
+    h3, .h3, h3 *, .h3 *  {
+        @include font-size($h1-font-size);
+    }
+
+    h4, .h4, h4 *, .h4 *  {
+        @include font-size($h3-font-size);
+    }
+
+    h5, .h5, h5 *, .h5 *  {
+        @include font-size($h4-font-size);
+    }
+
+    h6, .h6, h6 *, .h6 * {
+        @include font-size($h6-font-size);
+        color: $primary;
+    }
+}
