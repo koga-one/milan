@@ -93,6 +93,19 @@
                 href="https://bykoga.com/pt-br/jornal/hello-world/"
                 />
   </url><url>
+    <loc>https://bykoga.com/pt-br/portfolio/</loc>
+    <lastmod>2021-04-30T19:39:40-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/portfolio/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/portfolio/"
+                />
+  </url><url>
     <loc>https://bykoga.com/pt-br/jornal/</loc>
     <lastmod>2021-04-30T19:31:50-03:00</lastmod>
     <xhtml:link
