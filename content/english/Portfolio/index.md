@@ -171,7 +171,7 @@ Supervised over 40 members; other responsibilities include redesigning the whole
 * **HM** - Math, [<span class="link">Brazilian of Math</span>](https://www.obm.org.br/)
 
 ##### 2020 - 12th grade
-**-> National:**
+**-> National:**1
 * **2ND PLACE** - [<span class="link">MIT Hackmed Hackathon</span>](https://hackingmedicine.mit.edu)
 
 ##### 2021
