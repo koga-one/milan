@@ -9,7 +9,7 @@
     {{ if .Params.thumb }}
         {{ $image := $.Page.Resources.GetMatch .Params.thumb }}
         {{ .Scratch.Set "lowres-image" ($image.Fit "400x500 jpg q80 Lanczos Smart") }}
-        <a href="{{ .Params.link }}"><img class="lazy" src='{{ (.Scratch.Get "lowres-image").Permalink }}' alt='{{ .Params.alt }}'></a>
+        <a href="{{ .Params.link }}"><img class="card-img-top lazy" src='{{ (.Scratch.Get "lowres-image").Permalink }}' alt='{{ .Params.alt }}'></a>
     {{ end }}
     <div class="p-0 card-body">
         <a class="text-uppercase p-0 link-light text-center" href="{{ .Permalink | absLangURL }}"><h5 class="card-title px-4 py-3 {{ with .Params.titleClass }}{{ . }}{{ end }}" style="{{ with .Params.textColor }}color: {{ . }}{{ end }}">{{ .Title }}</h6></a>

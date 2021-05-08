@@ -2,7 +2,7 @@
     {{ if .Params.thumb }}
         {{ $image := $.Page.Resources.GetMatch .Params.thumb }}
         {{ .Scratch.Set "lowres-image" ($image.Fit "256x192 jpg q70") }}
-        <img class="lazy" src='{{ (.Scratch.Get "lowres-image").Permalink }}' alt='{{ .Params.alt }}'>
+        <img class="lazy card-img-top" src='{{ (.Scratch.Get "lowres-image").Permalink }}' alt='{{ .Params.alt }}'>
     {{ end }}
     {{ if .Params.topics }}
     <div class="card-header pt-4 pb-0 px-4 border-0 bg-dark {{ with .Params.headerClass }}{{ . }}{{ end }}">
