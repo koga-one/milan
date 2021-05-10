@@ -41,6 +41,32 @@
                 href="https://bykoga.com/art/banner/"
                 />
   </url><url>
+    <loc>https://bykoga.com/</loc>
+    <lastmod>2021-05-10T19:19:09-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/"
+                />
+  </url><url>
+    <loc>https://bykoga.com/journal/the-fours/</loc>
+    <lastmod>2021-05-10T19:19:09-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/the-fours/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/journal/the-fours/"
+                />
+  </url><url>
     <loc>https://bykoga.com/journal/a-good-exercise/</loc>
     <lastmod>2021-05-07T19:09:13-03:00</lastmod>
     <xhtml:link
@@ -52,19 +78,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://bykoga.com/journal/a-good-exercise/"
-                />
-  </url><url>
-    <loc>https://bykoga.com/</loc>
-    <lastmod>2021-05-07T19:09:13-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="https://bykoga.com/pt-br/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://bykoga.com/"
                 />
   </url><url>
     <loc>https://bykoga.com/journal/art-block/</loc>
