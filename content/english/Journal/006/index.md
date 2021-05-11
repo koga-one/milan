@@ -1,38 +1,31 @@
 ---
 # Essential settings
-title: "004"
-subtitle: "004"
+title: "006"
+subtitle: "006"
 type: "post"
-date: 2021-05-08T19:26:51-03:00
-translationKey: "004"
+date: 2021-05-11T18:55:58-03:00
+translationKey: "006"
 
 # Scheduling
 draft: false
 
 # Organization
 layout:
-topics: ["arte"]
+topics: ["journal"]
 tags: []
 
 # Style
-style: "image"
-size: "lg"
+style: "whisper"
+size: "md"
 color: "#FF5277"
 textColor: "#FF5277"
 weight: ""
 
-link: "https://www.instagram.com/p/COoNqWpMPJy/"
-
 # Custom Classes
 headerClass: ""
-titleClass: "gone"
+titleClass: ""
 summaryClass: ""
 footerClass: ""
-
-# Thumbnail / Featured
-summary: ""
-thumb: "images/sketch 004.png"
-alt: "Sketch 004!"
 
 #<div class="row d-flex" data-masonry='{"percentPosition": true }'>
 #    <div class="col-1"></div>
@@ -43,3 +36,7 @@ alt: "Sketch 004!"
 #    {{< imgproc path="images/snow.jpg" method="Fill" size="1920x1080" col="8" >}}
 #</div>
 ---
+
+***#006***
+
+*pshh* - Busy studying for my driving exams tomorrow!

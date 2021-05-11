@@ -41,8 +41,21 @@
                 href="https://bykoga.com/art/banner/"
                 />
   </url><url>
+    <loc>https://bykoga.com/journal/006/</loc>
+    <lastmod>2021-05-11T18:55:58-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/jornal/006/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/journal/006/"
+                />
+  </url><url>
     <loc>https://bykoga.com/</loc>
-    <lastmod>2021-05-10T19:19:09-03:00</lastmod>
+    <lastmod>2021-05-11T18:55:58-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
@@ -65,6 +78,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://bykoga.com/journal/the-fours/"
+                />
+  </url><url>
+    <loc>https://bykoga.com/art/004/</loc>
+    <lastmod>2021-05-08T19:26:51-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/arte/004/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/art/004/"
                 />
   </url><url>
     <loc>https://bykoga.com/journal/a-good-exercise/</loc>

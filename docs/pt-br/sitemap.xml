@@ -41,6 +41,32 @@
                 href="https://bykoga.com/pt-br/arte/banner/"
                 />
   </url><url>
+    <loc>https://bykoga.com/pt-br/jornal/006/</loc>
+    <lastmod>2021-05-11T18:55:58-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/journal/006/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/jornal/006/"
+                />
+  </url><url>
+    <loc>https://bykoga.com/pt-br/</loc>
+    <lastmod>2021-05-11T18:55:58-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/"
+                />
+  </url><url>
     <loc>https://bykoga.com/pt-br/the-fours/</loc>
     <lastmod>2021-05-10T19:19:09-03:00</lastmod>
     <xhtml:link
@@ -54,17 +80,17 @@
                 href="https://bykoga.com/pt-br/the-fours/"
                 />
   </url><url>
-    <loc>https://bykoga.com/pt-br/</loc>
-    <lastmod>2021-05-07T19:09:13-03:00</lastmod>
+    <loc>https://bykoga.com/pt-br/arte/004/</loc>
+    <lastmod>2021-05-08T19:26:51-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://bykoga.com/"
+                href="https://bykoga.com/art/004/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
-                href="https://bykoga.com/pt-br/"
+                href="https://bykoga.com/pt-br/arte/004/"
                 />
   </url><url>
     <loc>https://bykoga.com/pt-br/jornal/a-good-exercise/</loc>
