@@ -2,6 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://bykoga.com/chronicles/banner/</loc>
+    <lastmod>2021-05-12T11:48:13-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/cronicas/banner/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/chronicles/banner/"
+                />
+  </url><url>
     <loc>https://bykoga.com/journal/banner/</loc>
     <lastmod>2021-04-30T19:31:50-03:00</lastmod>
     <xhtml:link
@@ -41,6 +54,48 @@
                 href="https://bykoga.com/art/banner/"
                 />
   </url><url>
+    <loc>https://bykoga.com/</loc>
+    <lastmod>2021-05-12T12:05:13-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/"
+                />
+  </url><url>
+    <loc>https://bykoga.com/chronicles/solitary/</loc>
+    <lastmod>2021-05-12T12:05:13-03:00</lastmod>
+  </url><url>
+    <loc>https://bykoga.com/chronicles/</loc>
+    <lastmod>2021-05-12T11:48:13-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/cronicas/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/chronicles/"
+                />
+  </url><url>
+    <loc>https://bykoga.com/journal/007/</loc>
+    <lastmod>2021-05-12T11:41:21-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/jornal/007/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/journal/007/"
+                />
+  </url><url>
     <loc>https://bykoga.com/journal/006/</loc>
     <lastmod>2021-05-11T18:55:58-03:00</lastmod>
     <xhtml:link
@@ -52,19 +107,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://bykoga.com/journal/006/"
-                />
-  </url><url>
-    <loc>https://bykoga.com/</loc>
-    <lastmod>2021-05-11T18:55:58-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="https://bykoga.com/pt-br/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://bykoga.com/"
                 />
   </url><url>
     <loc>https://bykoga.com/journal/the-fours/</loc>

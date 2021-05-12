@@ -28,6 +28,6 @@ footerClass: "gone"
 
 # Thumbnail / Featured
 summary: "“Todo jogo me aproxima mais e mais do que eu imagino. É por isso que eu não consigo parar de criar jogos.” – Kojima Hideo"
-thumb: "images/controller.jpg"
+thumb: ""
 alt: ""
 ---

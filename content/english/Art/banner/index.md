@@ -28,6 +28,6 @@ footerClass: "gone"
 
 # Thumbnail / Featured
 summary: "“I found I could say things with color and shapes that I couldn't say any other way - things I had no words for.” – Georgia O'Keeffe"
-thumb: "images/art.jpg"
+thumb: ""
 alt: ""
 ---

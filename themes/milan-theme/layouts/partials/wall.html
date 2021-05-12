@@ -42,6 +42,9 @@
 
             <!-- The call -->
             <div class='{{ partial $sizeurl }} {{ partial "brick-parts/gutter.html" }}'>
+                {{ if eq .Params.draft true}}
+                    {{ partial "brick-parts/draft-badge.html" }} 
+                {{ end }}
                 {{ partial $styleurl . }}
             </div>
         {{ end }}

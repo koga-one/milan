@@ -2,6 +2,12 @@
 	"folders": [
 		{
 			"path": "content"
+		},
+		{
+			"path": "config"
+		},
+		{
+			"path": "themes\\milan-theme"
 		}
 	],
 	"settings": {}

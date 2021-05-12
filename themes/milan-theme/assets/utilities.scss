@@ -49,3 +49,10 @@
   .bg-gray {
     background-color: rgba(219,219,219,0.03);
   }
+
+  .badge-wrapper {
+    position: absolute;
+    right: 0.5em;
+
+    z-index: 1000;
+  }

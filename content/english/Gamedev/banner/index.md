@@ -28,6 +28,6 @@ footerClass: "gone"
 
 # Thumbnail / Featured
 summary: "“Every game brings me closer and closer to making what I imagine, that's why I could never stop making games.” – Kojima Hideo"
-thumb: "images/controller.jpg"
+thumb: ""
 alt: ""
 ---

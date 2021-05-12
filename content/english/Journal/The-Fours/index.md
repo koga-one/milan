@@ -16,7 +16,7 @@ tags: []
 
 # Style
 style: "whisper"
-size: "xl"
+size: "md"
 color: "#FF5277"
 textColor: "#FF5277"
 weight: ""

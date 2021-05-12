@@ -33,6 +33,11 @@
                 url = "/arte"
             [[pt-br.menu.main]]
                 parent = "topics"
+                weight = 5
+                name = "Crônicas"
+                url = "/cronicas"
+            [[pt-br.menu.main]]
+                parent = "topics"
                 weight = 10
                 name = "Game Dev"
                 url = "/gamedev"
@@ -77,6 +82,11 @@
                 weight = 0
                 name = "Art"
                 url = "/art"
+            [[en.menu.main]]
+                parent = "topics"
+                weight = 5
+                name = "Chronicles"
+                url = "/chronicles"
             [[en.menu.main]]
                 parent = "topics"
                 weight = 10

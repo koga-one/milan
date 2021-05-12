@@ -28,6 +28,6 @@ footerClass: "gone"
 
 # Thumbnail / Featured
 summary: "“Eu descobri que podia dizer com cores e formas coisas inexplicáveis de qualquer outra forma - coisas que eu não tinha palavras para descrever” – Georgia O'Keeffe"
-thumb: "images/art.jpg"
+thumb: ""
 alt: ""
 ---

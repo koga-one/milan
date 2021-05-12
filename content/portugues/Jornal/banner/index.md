@@ -28,6 +28,6 @@ footerClass: "gone"
 
 # Thumbnail / Featured
 summary: "“Mantenha um diário, e algum dia ele te manterá.” – Mae West"
-thumb: "images/journal.jpg"
+thumb: ""
 alt: ""
 ---
