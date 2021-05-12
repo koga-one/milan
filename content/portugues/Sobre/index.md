@@ -17,6 +17,6 @@ color: ""
 textColor: ""
 ---
 
-Nada aqui... por enquanto!
+Site de André H. Koga!
 
-Culpe o Koga.
+-> Conteúdo novo em breve

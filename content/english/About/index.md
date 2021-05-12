@@ -17,6 +17,6 @@ color: ""
 textColor: ""
 ---
 
-Nothing to see here... Yet!
+André H. Koga's website!
 
-Blame Koga.
+-> New content coming soon

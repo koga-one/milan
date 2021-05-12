@@ -32,6 +32,8 @@ I'm **André Koga**, a 18yr old Brazilian startup founder, game developer, web d
 
 ##### International Universities
 
+-> Was accepted into 6 USA universities, as follows:
+
 * **University of Toronto, Mississauga** - Studies in Computer Science, Mathematics, and Statistics
 * **University of Toronto, Scarborough** - Co-op Computer Science
 * **University of Toronto, Innis College** - Studies in Computer Science at the Faculty of Arts and Science
@@ -106,11 +108,17 @@ Supervised over 40 members; other responsibilities include redesigning the whole
 ###### Awards
 
 ##### 2014 - 6th grade
+
+-> Updates coming soon
+
 **-> National:**
 
 **-> State:**
 
 ##### 2015 - 7th grade
+
+-> Updates coming soon
+
 **-> International:**
 
 **-> National:**
