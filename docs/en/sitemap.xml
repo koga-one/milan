@@ -54,6 +54,32 @@
                 href="https://bykoga.com/art/banner/"
                 />
   </url><url>
+    <loc>https://bykoga.com/journal/008/</loc>
+    <lastmod>2021-05-14T17:42:00-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/jornal/008/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/journal/008/"
+                />
+  </url><url>
+    <loc>https://bykoga.com/</loc>
+    <lastmod>2021-05-14T17:42:00-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/"
+                />
+  </url><url>
     <loc>https://bykoga.com/journal/actual-007/</loc>
     <lastmod>2021-05-13T20:52:05-03:00</lastmod>
     <xhtml:link
@@ -65,19 +91,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://bykoga.com/journal/actual-007/"
-                />
-  </url><url>
-    <loc>https://bykoga.com/</loc>
-    <lastmod>2021-05-13T20:52:05-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="https://bykoga.com/pt-br/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://bykoga.com/"
                 />
   </url><url>
     <loc>https://bykoga.com/chronicles/solitary/</loc>

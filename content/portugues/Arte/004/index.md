@@ -16,7 +16,7 @@ tags: []
 
 # Style
 style: "image"
-size: "md"
+size: "sm"
 color: "#FF5277"
 textColor: "#FF5277"
 weight: ""

@@ -11,12 +11,12 @@ draft: false
 
 # Organization
 layout:
-topics: ["journal"]
+topics: ["jornal"]
 tags: []
 
 # Style
 style: "whisper"
-size: "md"
+size: "sm"
 color: "#FF5277"
 textColor: "#FF5277"
 weight: ""

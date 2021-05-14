@@ -16,7 +16,7 @@ tags: []
 
 # Style
 style: "diary"
-size: "md"
+size: "sm"
 color: "#5C7C89"
 textColor: ""
 weight: ""

@@ -23,12 +23,12 @@
     var headings = [].slice.call(documentRef.body.querySelectorAll('h6'));
     headings.forEach(function (heading, index) {
         var anchor = documentRef.createElement('a');
-        anchor.setAttribute('name', 'toc' + index);
-        anchor.setAttribute('id', 'toc' + index);
+        anchor.setAttribute('id', 'toc' + heading.textContent.toLowerCase());
         
         var link = documentRef.createElement('a');
-        link.setAttribute('href', '#' + heading.textContent.toLowerCase());
-        link.textContent = heading.textContent;
+        link.setAttribute('href', '#toc' + heading.textContent.toLowerCase());
+        link.setAttribute('class', 'text-decoration-none')
+        link.textContent = '-> ' + heading.textContent;
         
         var div = documentRef.createElement('div');
         div.setAttribute('class', heading.tagName.toLowerCase());

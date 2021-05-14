@@ -16,7 +16,7 @@ tags: []
 
 # Style
 style: "horizontal"
-size: "md"
+size: "sm"
 color: ""
 textColor: ""
 weight: ""

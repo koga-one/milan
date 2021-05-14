@@ -16,7 +16,7 @@ tags: []
 
 # Style
 style: "normal"
-size: "md"
+size: "sm"
 color: ""
 textColor: ""
 weight: ""
