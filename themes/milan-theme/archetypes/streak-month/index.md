@@ -15,7 +15,7 @@ topics: ["journal"]
 tags: []
 
 # Style
-style: "whisper"
+style: "normal"
 size: "lg"
 color: "#92E8C0"
 textColor: "#92E8C0"
@@ -27,6 +27,11 @@ titleClass: ""
 summaryClass: ""
 footerClass: ""
 
+# Thumbnail / Featured
+summary: "***#000 - Month 0***"
+#thumb: "images/Placeholder.jpg"
+alt: "Esse é o placeholder"
+
 #<div class="row d-flex" data-masonry='{"percentPosition": true }'>
 #    <div class="col-1"></div>
 #    {{< imgproc path="images/snow.jpg" method="Fill" size="1920x1080" col="8" >}}
@@ -36,9 +41,3 @@ footerClass: ""
 #    {{< imgproc path="images/snow.jpg" method="Fill" size="1920x1080" col="8" >}}
 #</div>
 ---
-
-***#000 - #000***
-
-<div class="row d-flex justify-content-center">
-    {{< imgproc path="images/Placeholder.jpg" method="Fill" size="400x500" col="12" >}}
-</div>

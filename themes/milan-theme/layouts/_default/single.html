@@ -8,7 +8,7 @@
         {{ .Scratch.Set "lowres-image" ($image.Fit "1920x1080 jpg q90 Lanczos Smart") }}
         <div class="bg-image" style='background-image: url({{ (.Scratch.Get "lowres-image").Permalink }}); min-height: calc(35vh + 12vw)'></div>
     {{ end }}
-    <div class="card-header py-4 p-3 p-md-4 p-lg-5 border-0 {{ with .Params.headerClass }}{{ . }}{{ end }}">
+    <div class="card-header px-2 px-md-3 px-lg-4 py-3 py-md-4 py-lg-5 border-0 {{ with .Params.headerClass }}{{ . }}{{ end }}">
         {{ if .Params.topics }}
             {{ range .Params.topics }}
                 <a class="link-blue text-decoration-none" href="{{ urlize . | absLangURL  }}" {{with $.Params.color }}style="color: {{.}}"{{ end }}><b>/{{ . }}</b></a>
@@ -19,7 +19,7 @@
             <h2 class="display-6 card-subtitle text-muted {{ with .Params.titleClass }}{{ . }}{{ end }}" style="{{ with .Params.textColor }}color: {{ . }}{{ end }}"><i><b>{{ .Params.subtitle }}</b></i></h2>
         {{ end }}
     </div>
-    <div id="single-layout" class="position-relative py-4 p-3 p-md-4 p-lg-5">
+    <div id="single-layout" class="position-relative px-2 px-md-3 px-lg-4 py-3 py-md-4 py-lg-5">
         <div id="single-content" class="card-body p-0" style="{{ with .Params.textColor }}color: {{ . }}{{ end }}">
             {{ range $index, $val := $content_parts }}
             {{ . | safeHTML }}

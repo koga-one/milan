@@ -47,7 +47,9 @@ I'm **André Koga**, a 18yr old Brazilian startup founder, game developer, web d
 
 * Average Grade: 9.9/10 - Top 1% Student
 
-##### Colégio Mater Amabilis, Guarulhos, São Paulo
+##### 9th Grade
+
+**Colégio Mater Amabilis, Guarulhos, São Paulo** - Was among the best students, going as far as receiving full-ride thanks to his performance.
 
 * Average Grade: 9.7/10 - 2nd Best Student
 

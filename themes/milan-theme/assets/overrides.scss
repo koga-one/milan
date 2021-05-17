@@ -17,6 +17,7 @@ $primary: #FF5277;
 // $warning: ;
 // $danger: ;
 $link-blue: #92E8C0;
+$link-blue-hover: #4FA4B8;
 $text-muted: #686F99;
 $light: #DFE0E8;
 $dark: #14182E;
@@ -43,6 +44,10 @@ $dropdown-padding-y:                .2rem;
   color: $link-blue;
 }
 
+.link-blue:hover {
+  color: $link-blue-hover;
+}
+
 // Code
 //$code-font-size:                    1rem;
 $code-color:                        #A3A7C2;
@@ -52,6 +57,8 @@ code {
   background-color: #2C354D;
   border-radius: 0.25rem;
 }
+
+// Buttons
 
 
 @import "./scss/variables";

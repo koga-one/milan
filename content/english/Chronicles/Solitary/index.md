@@ -11,7 +11,7 @@ draft: true
 
 # Organization
 layout:
-topics: [""]
+topics: ["chronicles"]
 tags: []
 
 # Style
