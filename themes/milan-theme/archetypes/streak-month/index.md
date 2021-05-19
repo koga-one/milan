@@ -2,6 +2,7 @@
 # Essential settings
 title: "{{ replace .Name "-" " " | title }}"
 subtitle: "{{ replace .Name "-" " " | title }}"
+slug:
 type: "post"
 date: {{ .Date }}
 translationKey: "{{ replace .Name "-" " " | title }}"

@@ -1,14 +1,13 @@
 ---
 # Essential settings
-title: "Esclarecimentos"
-subtitle: "Outra semana se vai! Aqui está o que eu tenho feito"
-slug: esclarecimentos
+title: "Medical \"Adventure\""
+subtitle: "010 011"
 type: "post"
-date: 2021-05-17T11:39:09-03:00
-translationKey: "015 W1"
+date: 2021-05-19T17:50:51-03:00
+translationKey: "010 011"
 
 # Scheduling
-draft: true
+draft: false
 
 # Organization
 layout:
@@ -16,10 +15,10 @@ topics: ["journal"]
 tags: []
 
 # Style
-style: "normal"
-size: "md"
-color: "#C8D45D"
-textColor: "#C8D45D"
+style: "whisper"
+size: "sm"
+color: "#FF5277"
+textColor: "#FF5277"
 weight: ""
 
 # Custom Classes
@@ -27,11 +26,6 @@ headerClass: ""
 titleClass: ""
 summaryClass: ""
 footerClass: ""
-
-# Thumbnail / Featured
-summary: "***#015 - Semana 1***"
-#thumb: "images/Placeholder.jpg"
-alt: "Esse é o placeholder"
 
 #<div class="row d-flex" data-masonry='{"percentPosition": true }'>
 #    <div class="col-1"></div>
@@ -43,4 +37,12 @@ alt: "Esse é o placeholder"
 #</div>
 ---
 
-=> A versão em português ficará pronta apenas quando eu terminar a versão em inglês!
+***#010 and #011***
+
+<div class="row d-flex justify-content-center">
+    {{< imgproc path="images/wires.jpg" method="Fill" size="400x500" col="12" >}}
+</div>
+
+<br>
+
+Don't worry, I'm fine. I just had a kinda exhaustive exam during the night, affecting yesterday and today. Soooo, I'm very tired. The streaks continue, however!

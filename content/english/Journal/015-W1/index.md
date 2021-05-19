@@ -2,6 +2,7 @@
 # Essential settings
 title: "Clarifications"
 subtitle: "Another week passes by! Here is what I've done"
+slug: clarifications
 type: "post"
 date: 2021-05-17T11:39:09-03:00
 translationKey: "015 W1"
@@ -42,13 +43,13 @@ alt: "Esse é o placeholder"
 #</div>
 ---
 
-###### Introduction
+###### Observations
 
 ##### Format
 
 Well, this is my first week entry. I don't know how the format should be, but I don't care: let's just see what works!
 
-###### Site Changes
+##### Site Changes
 
 I've been slowly improving some things on the website that you might've noticed. The major one is the Table of Contents; right on this page, you can see it on the right side of the page ==>
 
