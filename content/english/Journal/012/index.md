@@ -1,17 +1,17 @@
 ---
 # Essential settings
-title: "\"Aventura\" Médica"
-subtitle: "010 011"
+title: "Simplifying"
+subtitle: "012"
 type: "post"
-date: 2021-05-19T17:50:51-03:00
-translationKey: "010 011"
+date: 2021-05-20T12:45:52-03:00
+translationKey: "012"
 
 # Scheduling
 draft: false
 
 # Organization
 layout:
-topics: ["jornal"]
+topics: ["journal"]
 tags: []
 
 # Style
@@ -37,12 +37,8 @@ footerClass: ""
 #</div>
 ---
 
-***#010 e #011***
+***#012***
 
-<div class="row d-flex justify-content-center">
-    {{< imgproc path="images/wires.jpg" method="Fill" size="400x500" col="12" >}}
-</div>
+“Everything should be made as simple as possible, but not simpler.” - Albert Einstein
 
-<br>
-
-Não se preocupe, eu estou bem. O fato é que eu tive um exame relativamente cansativo durante a noite, afetando ontem e hoje. Entãaao, eu estou bem cansado. Os *streaks*, porém, continuam!
+Have a good day!

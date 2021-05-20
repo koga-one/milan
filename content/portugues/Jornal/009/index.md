@@ -11,7 +11,7 @@ draft: false
 
 # Organization
 layout:
-topics: ["journal"]
+topics: ["jornal"]
 tags: []
 
 # Style
