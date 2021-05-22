@@ -47,3 +47,23 @@
         display: inline;
     }
 }
+
+$media-colors: (
+    "twitter": #1B92DB,
+    "instagram": #e61a6f,
+    "itchio": #FF5F5F,
+    "gplay": #3BCCFF,
+    "linkedin": #006699
+) !default;
+
+@each $color, $value in $media-colors {
+    .btn-#{$color} {
+        @include button-variant($value, $value);
+    }
+}
+  
+@each $color, $value in $media-colors {
+    .btn-outline-#{$color} {
+        @include button-outline-variant($value);
+    }
+}

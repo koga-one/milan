@@ -7,7 +7,7 @@ date: 2021-05-21T21:23:03-03:00
 translationKey: "013"
 
 # Scheduling
-draft: true
+draft: false
 
 # Organization
 layout:

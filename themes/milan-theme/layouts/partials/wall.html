@@ -20,6 +20,8 @@
                 {{ $styleurl = "brick-styles/display-brick.html" }}
             {{ else if eq .Params.style "diary" }}
                 {{ $styleurl = "brick-styles/diary-brick.html" }}
+                {{ else if eq .Params.style "info" }}
+                {{ $styleurl = "brick-styles/info-brick.html" }}
             {{ else }}
                 {{ $styleurl = "brick-styles/normal-brick.html" }}
             {{ end }}
