@@ -43,7 +43,7 @@ alt: "Esse é o placeholder"
 #</div>
 ---
 
-###### Observations
+###### Initial Notes
 
 ##### Format
 
@@ -84,3 +84,15 @@ Anyways, here are the quotes:
 * “It is the essence of genius to make use of the simplest ideas.” - Charles Péguy
 
 * “Three rules of work: out of clutter find simplicity. From discord find harmony. In the middle of difficulty lies opportunity.” - Albert Einstein
+
+###### Technology
+
+After spending quite A LOT of time searching for the best phone
+
+###### Game Launched
+
+(almost) tic-tac-toe
+
+###### Rebranding
+
+I changed some brand stuff!

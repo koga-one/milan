@@ -1,5 +1,12 @@
 .toc {
-    display: block !important;
-    overflow-y: auto;
-    height: calc(100vh - 7rem);
+    border-bottom: 1px white solid;
+
+    @include media-breakpoint-up(lg) {
+        display: block !important;
+        overflow-y: auto;
+        min-height: 50vh;
+        max-height: calc(100vh - 13rem);
+
+        border-bottom: none;
+    }
 }

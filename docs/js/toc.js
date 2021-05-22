@@ -26,10 +26,13 @@
     var currentSubUl;
 
     headings.forEach(function (heading, index) {
+        var nospace = heading.textContent.toLowerCase().replace(' ', '-');
+
         var anchor = documentRef.createElement('a');
-        anchor.setAttribute('id', 'toc' + heading.textContent.toLowerCase());
+        anchor.setAttribute('id', nospace);
 
         heading.parentNode.insertBefore(anchor, heading);
+
 
         if (heading.tagName == "H6")
         {
@@ -43,17 +46,17 @@
             
             var expand = documentRef.createElement('button');
             expand.setAttribute('type', 'button');
-            expand.setAttribute('href', '#toc' + heading.textContent.toLowerCase());
+            expand.setAttribute('href', '#' + nospace);
             expand.setAttribute('data-bs-toggle', 'collapse');
-            expand.setAttribute('data-bs-target', '#collapse' + heading.textContent.toLowerCase());
+            expand.setAttribute('data-bs-target', '#collapse' + nospace);
             expand.setAttribute('aria-expanded', 'false');
-            expand.setAttribute('aria-controls', 'collapse' + heading.textContent.toLowerCase())
-            expand.setAttribute('class', 'btn fw-bolder btn-primary');
+            expand.setAttribute('aria-controls', 'collapse' + nospace)
+            expand.setAttribute('class', 'btn btn-sm fw-bolder btn-light');
             expand.textContent = '>';
             
             var label = documentRef.createElement('a');
-            label.setAttribute('href', '#toc' + heading.textContent.toLowerCase());
-            label.setAttribute('class', 'btn ms-1 btn-outline-primary fw-bolder');
+            label.setAttribute('href', '#' + nospace);
+            label.setAttribute('class', 'btn btn-sm ms-1 btn-outline-primary fw-bolder');
             label.textContent = heading.textContent;
             
             //h6.appendChild(label);
@@ -66,7 +69,7 @@
             // Set the new one
             currentCollapse = documentRef.createElement('div');
             currentCollapse.setAttribute('class', 'collapse');
-            currentCollapse.setAttribute('id', 'collapse' + heading.textContent.toLowerCase());
+            currentCollapse.setAttribute('id', 'collapse' + nospace);
 
             currentSubUl = documentRef.createElement('ul');
             currentSubUl.setAttribute('class', 'list-unstyled fw-normal pb-1 small');
@@ -78,7 +81,7 @@
             subLi.setAttribute('class', '');
             
             var sublink = documentRef.createElement('a');
-            sublink.setAttribute('href', '#toc' + heading.textContent.toLowerCase());
+            sublink.setAttribute('href', '#' + nospace);
             sublink.setAttribute('class', 'text-muted btn text-decoration-none')
             sublink.textContent = heading.textContent;
 
