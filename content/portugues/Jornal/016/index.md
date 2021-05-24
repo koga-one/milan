@@ -1,10 +1,10 @@
 ---
 # Essential settings
-title: "Just do it"
-subtitle: "014"
+title: "Pretty Surgery Much Pain"
+subtitle: "016"
 type: "post"
-date: 2021-05-22T15:25:24-03:00
-translationKey: "014"
+date: 2021-05-24T17:06:01-03:00
+translationKey: "016"
 
 # Scheduling
 draft: false
@@ -37,6 +37,6 @@ footerClass: ""
 #</div>
 ---
 
-***#014***
+***#016***
 
-Me sentindo bem produtivo recentemente! Ao me preocupar menos com rotinas, eu comecei a pensar menos nas "coisas que eu poderia fazer" ou as "coisas que eu deveria ter feito"
+Tive cirurgia hoje. Removi quatro dentes (os do fundo). Tá doendo bastante haha. Até amanhã

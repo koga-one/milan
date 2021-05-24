@@ -94,7 +94,7 @@
                 />
   </url><url>
     <loc>https://bykoga.com/pt-br/</loc>
-    <lastmod>2021-05-22T15:25:24-03:00</lastmod>
+    <lastmod>2021-05-24T17:06:01-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -104,6 +104,32 @@
                 rel="alternate"
                 hreflang="pt-br"
                 href="https://bykoga.com/pt-br/"
+                />
+  </url><url>
+    <loc>https://bykoga.com/pt-br/jornal/016/</loc>
+    <lastmod>2021-05-24T17:06:01-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/journal/016/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/jornal/016/"
+                />
+  </url><url>
+    <loc>https://bykoga.com/pt-br/jornal/esclarecimentos/</loc>
+    <lastmod>2021-05-23T19:03:09-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/journal/clarifications/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/jornal/esclarecimentos/"
                 />
   </url><url>
     <loc>https://bykoga.com/pt-br/jornal/014/</loc>
@@ -169,19 +195,6 @@
                 rel="alternate"
                 hreflang="pt-br"
                 href="https://bykoga.com/pt-br/jornal/010-011/"
-                />
-  </url><url>
-    <loc>https://bykoga.com/pt-br/jornal/esclarecimentos/</loc>
-    <lastmod>2021-05-17T11:39:09-03:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://bykoga.com/journal/clarifications/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt-br"
-                href="https://bykoga.com/pt-br/jornal/esclarecimentos/"
                 />
   </url><url>
     <loc>https://bykoga.com/pt-br/jornal/009/</loc>

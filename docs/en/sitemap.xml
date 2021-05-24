@@ -94,7 +94,7 @@
                 />
   </url><url>
     <loc>https://bykoga.com/</loc>
-    <lastmod>2021-05-23T19:03:09-03:00</lastmod>
+    <lastmod>2021-05-24T17:06:01-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt-br"
@@ -104,6 +104,19 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://bykoga.com/"
+                />
+  </url><url>
+    <loc>https://bykoga.com/journal/016/</loc>
+    <lastmod>2021-05-24T17:06:01-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/jornal/016/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/journal/016/"
                 />
   </url><url>
     <loc>https://bykoga.com/journal/clarifications/</loc>
