@@ -2,15 +2,15 @@
     span, p, li, ul, ol{
         color: #A3A7C2;
     }
-
+    
     a, a span {
         color: $link-blue;
     }
-
+    
     strong, b {
         color: $light;
     }
-
+    
     h3, .h3, h3 *, .h3 *  {
         @include font-size($h1-font-size);
     }
@@ -45,6 +45,12 @@
     }
     blockquote p {
         display: inline;
+    }
+}
+
+.card-body {
+    p strong, p b {
+        color: $light;
     }
 }
 

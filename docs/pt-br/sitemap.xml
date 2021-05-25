@@ -2,6 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://bykoga.com/pt-br/musica/banner/</loc>
+    <lastmod>2021-05-25T13:48:14-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/music/banner/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/musica/banner/"
+                />
+  </url><url>
     <loc>https://bykoga.com/pt-br/info/warning/</loc>
     <lastmod>2021-05-22T15:14:53-03:00</lastmod>
     <xhtml:link
@@ -94,7 +107,7 @@
                 />
   </url><url>
     <loc>https://bykoga.com/pt-br/</loc>
-    <lastmod>2021-05-24T17:06:01-03:00</lastmod>
+    <lastmod>2021-05-25T13:51:22-03:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -104,6 +117,32 @@
                 rel="alternate"
                 hreflang="pt-br"
                 href="https://bykoga.com/pt-br/"
+                />
+  </url><url>
+    <loc>https://bykoga.com/pt-br/musica/017/</loc>
+    <lastmod>2021-05-25T13:51:22-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/music/017/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/musica/017/"
+                />
+  </url><url>
+    <loc>https://bykoga.com/pt-br/musica/</loc>
+    <lastmod>2021-05-25T13:48:14-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/music/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/musica/"
                 />
   </url><url>
     <loc>https://bykoga.com/pt-br/jornal/016/</loc>
