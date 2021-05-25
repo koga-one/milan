@@ -42,7 +42,7 @@
             }
 
             currentLi = documentRef.createElement('li');
-            currentLi.setAttribute('class', 'mb-1');
+            currentLi.setAttribute('class', 'mt-1');
             
             var expand = documentRef.createElement('button');
             expand.setAttribute('type', 'button');
@@ -51,7 +51,7 @@
             expand.setAttribute('data-bs-target', '#collapse' + nospace);
             expand.setAttribute('aria-expanded', 'false');
             expand.setAttribute('aria-controls', 'collapse' + nospace)
-            expand.setAttribute('class', 'btn btn-sm fw-bolder btn-light');
+            expand.setAttribute('class', 'btn btn-sm fw-bolder btn-primary');
             expand.textContent = '>';
             
             var label = documentRef.createElement('a');
@@ -82,7 +82,7 @@
             
             var sublink = documentRef.createElement('a');
             sublink.setAttribute('href', '#' + nospace);
-            sublink.setAttribute('class', 'text-muted btn text-decoration-none')
+            sublink.setAttribute('class', 'mt-1 text-muted text-start btn btn-sm btn-outline-secondary text-decoration-none')
             sublink.textContent = heading.textContent;
 
             subLi.appendChild(sublink);
