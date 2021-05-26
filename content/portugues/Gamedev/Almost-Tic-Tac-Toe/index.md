@@ -1,6 +1,6 @@
 ---
 # Essential settings
-title: "(Almost) Tic Tac Toe"
+title: "(Almost) Tic-Tac-Toe"
 subtitle: "Novo jogo!"
 slug:
 type: "post"

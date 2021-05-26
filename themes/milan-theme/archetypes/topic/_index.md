@@ -8,6 +8,9 @@ translationKey: "{{ replace .Name "-" " " | title }}"
 # Scheduling
 draft: false
 
+# Style
+color: ""
+
 # Organization
 layout: ""
 ---

@@ -16,8 +16,8 @@ tags: []
 # Style
 style: "imagetext"
 size: "xl"
-color: ""
-textColor: ""
+color: "#5662F6"
+textColor: "#fff"
 weight: "1"
 
 # Custom Classes

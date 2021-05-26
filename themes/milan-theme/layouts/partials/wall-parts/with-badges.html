@@ -1,0 +1,9 @@
+<!-- Badges -->
+<h6 class="badge-wrapper">
+    {{ $start := .post.Date | time }}
+    {{ $diff := now.Sub $start }}
+
+    {{ if le $diff.Hours 72 | and .shownew }}
+        {{ partial "brick-parts/new-badge.html" }}
+    {{ end }}
+</h6>

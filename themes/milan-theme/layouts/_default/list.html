@@ -1,7 +1,9 @@
 {{ define "main" }}
-{{ $bricks := .Pages }}
+{{ $bricks := where .Pages "Type" "post" }}
+{{ $banner := where .Pages "Type" "banner" | first 1 }}
+{{ $home := .IsHome }}
 
 <section class="list">
-  {{ partial "wall.html" (dict "context" . "bricks" $bricks) }}
+  {{ partial "wall.html" (dict "context" . "banner" $banner "bricks" $bricks "home" $home "color" .Params.color) }}
 </section>
 {{ end }}

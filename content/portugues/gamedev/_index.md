@@ -8,6 +8,9 @@ translationKey: "Gamedev"
 # Scheduling
 draft: false
 
+# Style
+color: "#5662F6"
+
 # Organization
 layout: ""
 ---

@@ -24,10 +24,14 @@
   one = "Um minuto para ler"
   other = "{{.Count}} minutos para ler"
 [draft]
-  other = "rascunho"
+  one = "rascunho"
+  other = "rascunhos"
 [latest]
   other = "mais recente"
 [new]
   other = "novo"
 [all]
   other = "todos os posts"
+[info]
+  one = "informação"
+  other = "informações"

@@ -8,6 +8,9 @@ translationKey: "Music"
 # Scheduling
 draft: false
 
+# Style
+color: "#1ED760"
+
 # Organization
 layout: ""
 ---

@@ -20,7 +20,7 @@ style: "info"
 size: "sm"
 color: "#DFE0E8"
 textColor: "#DFE0E8"
-weight: "1"
+weight: ""
 
 # Custom Classes
 headerClass: ""

@@ -8,6 +8,9 @@ translationKey: "Chronicles"
 # Scheduling
 draft: false
 
+# Style
+color: "#78A36C"
+
 # Organization
 layout: ""
 ---

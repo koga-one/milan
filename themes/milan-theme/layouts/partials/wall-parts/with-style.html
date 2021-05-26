@@ -1,0 +1,26 @@
+<!-- According to style -->
+{{ $styleurl := "" }}
+
+{{ if eq .context.Params.style "normal" }}
+{{ $styleurl = "brick-styles/normal-brick.html" }}
+{{ else if eq .context.Params.style "imagetext" }}
+{{ $styleurl = "brick-styles/imagetext-brick.html" }}
+{{ else if eq .context.Params.style "image" }}
+{{ $styleurl = "brick-styles/image-brick.html" }}
+{{ else if eq .context.Params.style "whisper" }}
+{{ $styleurl = "brick-styles/whisper-brick.html" }}
+{{ else if eq .context.Params.style "horizontal" }}
+{{ $styleurl = "brick-styles/horizontal-brick.html" }}
+{{ else if eq .context.Params.style "display" }}
+{{ $styleurl = "brick-styles/display-brick.html" }}
+{{ else if eq .context.Params.style "diary" }}
+{{ $styleurl = "brick-styles/diary-brick.html" }}
+{{ else if eq .context.Params.style "info" }}
+{{ $styleurl = "brick-styles/info-brick.html" }}
+{{ else if eq .context.Params.style "spotify" }}
+{{ $styleurl = "brick-styles/spotify-brick.html" }}
+{{ else }}
+{{ $styleurl = "brick-styles/normal-brick.html" }}
+{{ end }}
+
+{{ return $styleurl }}

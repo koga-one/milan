@@ -20,18 +20,13 @@ style: "info"
 size: "sm"
 color: "#FFEE83"
 textColor: "#FFEE83"
-weight: "1"
+weight: ""
 
 # Custom Classes
 headerClass: ""
 titleClass: ""
 summaryClass: ""
 footerClass: ""
-
-# Thumbnail / Featured
-summary: ""
-thumb: "images/Placeholder.jpg"
-alt: "Esse é o placeholder"
 
 #<div class="row d-flex" data-masonry='{"percentPosition": true }'>
 #    <div class="col-1"></div>

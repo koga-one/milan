@@ -1,0 +1,32 @@
+<!-- According to size -->
+{{ $sizeurl := "" }}
+
+{{ .enlarge }}
+
+{{ if .enlarge }}
+    {{ if eq .context.Params.size "sm" }}
+    {{ $sizeurl = "brick-sizes/md-size.html" }}
+    {{ else if eq .context.Params.size "md" }}
+    {{ $sizeurl = "brick-sizes/lg-size.html" }}
+    {{ else if eq .context.Params.size "lg" }}
+    {{ $sizeurl = "brick-sizes/xl-size.html" }}
+    {{ else if eq .context.Params.size "xl" }}
+    {{ $sizeurl = "brick-sizes/xl-size.html" }}
+    {{ else }}
+    {{ $sizeurl = "brick-sizes/md-size.html" }}
+    {{ end }}
+{{ else }}
+    {{ if eq .context.Params.size "sm" }}
+    {{ $sizeurl = "brick-sizes/sm-size.html" }}
+    {{ else if eq .context.Params.size "md" }}
+    {{ $sizeurl = "brick-sizes/md-size.html" }}
+    {{ else if eq .context.Params.size "lg" }}
+    {{ $sizeurl = "brick-sizes/lg-size.html" }}
+    {{ else if eq .context.Params.size "xl" }}
+    {{ $sizeurl = "brick-sizes/xl-size.html" }}
+    {{ else }}
+    {{ $sizeurl = "brick-sizes/sm-size.html" }}
+    {{ end }}
+{{ end }}
+
+{{ return $sizeurl }}

@@ -8,6 +8,9 @@ translationKey: "Art"
 # Scheduling
 draft: false
 
+# Style
+color: "#ff8c00"
+
 # Organization
 layout: ""
 ---

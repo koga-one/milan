@@ -1,137 +1,126 @@
-<div class="container wall">
+{{ if .home }}
+{{ else }}
+    {{ range (last 1 .bricks) }}
+    {{ end }}
+{{ end }}
 
-    <h1 class="text-center pt-3 pb-0 m-0 text-uppercase card-title text-primary"><i><b>{{ i18n "latest" }}</b></i></h1>
-
-    <div class="row justify-content-center pb-4">
-        <!-- Mais recente -->
-
-        {{ range (last 1 .bricks.ByDate) }}
-
-        {{ $styleurl := "" }}
-        {{ $sizeurl := "" }}
-
-        <!-- According to style -->
-        {{ if eq .Params.style "normal" }}
-            {{ $styleurl = "brick-styles/normal-brick.html" }}
-        {{ else if eq .Params.style "imagetext" }}
-            {{ $styleurl = "brick-styles/imagetext-brick.html" }}
-        {{ else if eq .Params.style "image" }}
-            {{ $styleurl = "brick-styles/image-brick.html" }}
-        {{ else if eq .Params.style "whisper" }}
-            {{ $styleurl = "brick-styles/whisper-brick.html" }}
-        {{ else if eq .Params.style "horizontal" }}
-            {{ $styleurl = "brick-styles/horizontal-brick.html" }}
-        {{ else if eq .Params.style "display" }}
-            {{ $styleurl = "brick-styles/display-brick.html" }}
-        {{ else if eq .Params.style "diary" }}
-            {{ $styleurl = "brick-styles/diary-brick.html" }}
-        {{ else if eq .Params.style "info" }}
-            {{ $styleurl = "brick-styles/info-brick.html" }}
-            {{ else if eq .Params.style "spotify" }}
-            {{ $styleurl = "brick-styles/spotify-brick.html" }}
-        {{ else }}
-            {{ $styleurl = "brick-styles/normal-brick.html" }}
-        {{ end }}
-
-        <!-- According to size -->
-        {{ if eq .Params.size "sm" }}
-            {{ $sizeurl = "brick-sizes/md-size.html" }}
-        {{ else if eq .Params.size "md" }}
-            {{ $sizeurl = "brick-sizes/lg-size.html" }}
-        {{ else if eq .Params.size "lg" }}
-            {{ $sizeurl = "brick-sizes/xl-size.html" }}
-        {{ else if eq .Params.size "xl" }}
-            {{ $sizeurl = "brick-sizes/xl-size.html" }}
-        {{ else }}
-            {{ $sizeurl = "brick-sizes/lg-size.html" }}
-        {{ end }}
-
-        <!-- The call -->
-        <div class='{{ partial $sizeurl }} {{ partial "brick-parts/gutter.html" }} position-relative'>
-            {{ if eq .Params.draft true}}
-                {{ partial "brick-parts/draft-badge.html" }}
-            {{ end }}
-            {{ partial $styleurl . }}
-        </div>
-        {{ end }}
-    </div>
-</div>
-
-<hr class="my-4">
-
-<div class="container wall">
-
-    <h1 class="text-center pt-3 pb-0 m-0 text-uppercase card-title text-primary"><i><b>{{ i18n "all" }}</b></i></h1>
-
-    <div class="row" data-masonry='{"percentPosition": true }'>
-
-        <!-- Todos os posts exceto o primeiro -->
-
-        {{ range $index, $post := .bricks }}
-
-            {{ if ge $index 1 }}
-
-                {{ $styleurl := "" }}
-                {{ $sizeurl := "" }}
-
-                <!-- According to style -->
-                {{ if eq .Params.style "normal" }}
-                    {{ $styleurl = "brick-styles/normal-brick.html" }}
-                {{ else if eq .Params.style "imagetext" }}
-                    {{ $styleurl = "brick-styles/imagetext-brick.html" }}
-                {{ else if eq .Params.style "image" }}
-                    {{ $styleurl = "brick-styles/image-brick.html" }}
-                {{ else if eq .Params.style "whisper" }}
-                    {{ $styleurl = "brick-styles/whisper-brick.html" }}
-                {{ else if eq .Params.style "horizontal" }}
-                    {{ $styleurl = "brick-styles/horizontal-brick.html" }}
-                {{ else if eq .Params.style "display" }}
-                    {{ $styleurl = "brick-styles/display-brick.html" }}
-                {{ else if eq .Params.style "diary" }}
-                    {{ $styleurl = "brick-styles/diary-brick.html" }}
-                {{ else if eq .Params.style "info" }}
-                    {{ $styleurl = "brick-styles/info-brick.html" }}
-                    {{ else if eq .Params.style "spotify" }}
-                    {{ $styleurl = "brick-styles/spotify-brick.html" }}
-                {{ else }}
-                    {{ $styleurl = "brick-styles/normal-brick.html" }}
-                {{ end }}
-
-                <!-- According to size -->
-                {{ if eq .Params.size "sm" }}
-                    {{ $sizeurl = "brick-sizes/sm-size.html" }}
-                {{ else if eq .Params.size "md" }}
-                    {{ $sizeurl = "brick-sizes/md-size.html" }}
-                {{ else if eq .Params.size "lg" }}
-                    {{ $sizeurl = "brick-sizes/lg-size.html" }}
-                {{ else if eq .Params.size "xl" }}
-                    {{ $sizeurl = "brick-sizes/xl-size.html" }}
-                {{ else }}
-                    {{ $sizeurl = "brick-sizes/md-size.html" }}
-                {{ end }}
-
-                <!-- The pre-call -->
-                <div class="col-1"></div>
-
+<!-- Banner -->
+{{ if not .home }}
+    {{ $banner := (first 1 .banner) }}
+    <div class="container wall">
+        <div class="row justify-content-center pb-4">
+            {{ range $index, $post := $banner }}
+                {{ $styleurl := partial "wall-parts/with-style.html" (dict "context" . ) }}
+                {{ $sizeurl := partial "wall-parts/with-size.html" (dict "context" . "enlarge" true ) }}
+                
                 <!-- The call -->
-                <div class='{{ partial $sizeurl }} {{ partial "brick-parts/gutter.html" }}'>
-
-                    <h6 class="badge-wrapper">
-                        {{ if eq .Params.draft true}}
-                            {{ partial "brick-parts/draft-badge.html" }}
-                        {{ end }}
-                        
-                        {{ $start := $post.Date | time }}
-                        {{ $diff := now.Sub $start }}
-
-                        {{ if le $diff.Hours 72 }}
-                            {{ partial "brick-parts/new-badge.html" }}
-                        {{ end }}
-                    </h6>
-
+                <div class='{{ partial $sizeurl }} {{ partial "brick-parts/gutter.html" }} position-relative'>
                     {{ partial $styleurl . }}
                 </div>
             {{ end }}
-        {{ end }}
+        </div>
     </div>
-</div>
+{{ end }}
+
+<!-- Mais recente -->
+{{ $recent := (where .bricks ".Params.draft" false | first 1) }}
+{{ if len $recent | le 1 }}
+    <div class="container wall">
+        <h1 class="text-center pt-3 pb-0 m-0 text-uppercase" style="color: {{ .color }}"><i><b>{{ i18n "latest" }}</b></i></h1>
+        <div class="row justify-content-center pb-4">
+            {{ range $index, $post := $recent }}
+                {{ $styleurl := partial "wall-parts/with-style.html" (dict "context" . ) }}
+                {{ $sizeurl := partial "wall-parts/with-size.html" (dict "context" . "enlarge" true ) }}
+
+                <!-- The call -->
+                <div class='{{ partial $sizeurl }} {{ partial "brick-parts/gutter.html" }} position-relative'>
+                    {{ partial "wall-parts/with-badges.html" (dict "context" . "post" $post "shownew" false ) }}
+                    {{ partial $styleurl . }}
+                </div>
+            {{ end }}
+        </div>
+    </div>
+
+    <hr class="my-4">
+{{ end }}
+
+
+<!-- Infos -->
+{{ if .home }}
+    {{ if len .infos | le 1 }}
+        <div class="container wall">
+            <h1 class="text-center pt-3 pb-0 m-0 text-uppercase" style="color: {{ .color }}"><i><b>{{ i18n "info" }}</b></i></h1>
+            <div class="row" data-masonry='{"percentPosition": true }'>
+                <!-- The pre-call -->
+                <div class="col-1"></div>
+
+                {{ range $index, $post := .infos }}
+                    {{ $styleurl := partial "wall-parts/with-style.html" (dict "context" . ) }}
+                    {{ $sizeurl := partial "wall-parts/with-size.html" (dict "context" . "enlarge" false ) }}
+                    
+                    <!-- The call -->
+                    <div class='{{ partial $sizeurl }} {{ partial "brick-parts/gutter.html" }}'>
+                        {{ partial "wall-parts/with-badges.html" (dict "context" . "post" $post "shownew" true ) }}
+                        {{ partial $styleurl . }}
+                    </div>
+                {{ end }}
+            </div>
+        </div>
+
+        <hr class="my-4">
+    {{ end }}
+{{ end }}
+
+<!-- Drafts -->
+{{ $drafts := (where .bricks ".Params.draft" true ) }}
+{{ if len $drafts | le 1 }}
+    <div class="container wall">
+        <h1 class="text-center pt-3 pb-0 m-0 text-uppercase" style="color: {{ .color }}"><i><b>{{ i18n "draft" 2 }}</b></i></h1>
+        <div class="row" data-masonry='{"percentPosition": true }'>
+            <!-- The pre-call -->
+            <div class="col-1"></div>
+
+            {{ range $index, $post := $drafts }}
+                {{ $styleurl := partial "wall-parts/with-style.html" (dict "context" . ) }}
+                {{ $sizeurl := partial "wall-parts/with-size.html" (dict "context" . "enlarge" false ) }}
+
+                <!-- The call -->
+                <div class='{{ partial $sizeurl }} {{ partial "brick-parts/gutter.html" }}'>
+                    {{ partial "wall-parts/with-badges.html" (dict "context" . "post" $post "shownew" true ) }}
+                    {{ partial $styleurl . }}
+                </div>
+            {{ end }}
+        </div>
+    </div>
+
+    <hr class="my-4">
+{{ end}}
+    
+<!-- Todos os posts (sem drafts) -->
+{{ $notdrafts := (where .bricks ".Params.draft" false ) }}
+{{ if len $notdrafts | le 1 }}
+    <div class="container wall">
+        <h1 class="text-center pt-3 pb-0 m-0 text-uppercase" style="color: {{ .color }}"><i><b>{{ i18n "all" }}</b></i></h1>
+        <div class="row" data-masonry='{"percentPosition": true }'>
+            <!-- The pre-call -->
+            <div class="col-1"></div>
+
+            {{ range $index, $post := $notdrafts }}
+                {{ $styleurl := partial "wall-parts/with-style.html" (dict "context" . ) }}
+                {{ $sizeurl := partial "wall-parts/with-size.html" (dict "context" . "enlarge" false ) }}
+
+                <!-- The call -->
+                <div class='{{ partial $sizeurl }} {{ partial "brick-parts/gutter.html" }}'>
+                    {{ partial "wall-parts/with-badges.html" (dict "context" . "post" $post "shownew" true ) }}
+                    {{ partial $styleurl . }}
+                </div>
+            {{ end }}
+        </div>
+    </div>
+
+    <hr class="my-4">
+{{ end }}
+
+{{ if len .bricks | eq 0 }}
+    <h5 class="p-5 m-5 text-muted text-center"><i>it is very empty here...</i></h5>
+{{ end }}

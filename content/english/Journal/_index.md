@@ -8,6 +8,9 @@ translationKey: "Journal"
 # Scheduling
 draft: false
 
+# Style
+color: "#EAE8C7"
+
 # Organization
 layout: ""
 ---

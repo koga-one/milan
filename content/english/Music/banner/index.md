@@ -16,7 +16,7 @@ tags: []
 # Style
 style: "imagetext"
 size: "xl"
-color: ""
+color: "#1ED760"
 textColor: "#fff"
 weight: "1"
 

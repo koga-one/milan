@@ -23,6 +23,10 @@
             name = "Portfólio"
             url = "/portfolio/"
         [[pt-br.menu.main]]
+            weight = 17
+            name = "Patchnotes"
+            url = "/patchnotes/"
+        [[pt-br.menu.main]]
             weight = 20
             name = "Tópicos"
             identifier = "topics"
@@ -78,6 +82,10 @@
             weight = 15
             name = "Portfolio"
             url = "/portfolio/"
+        [[en.menu.main]]
+            weight = 17
+            name = "Patchnotes"
+            url = "/patchnotes/"
         [[en.menu.main]]
             weight = 20
             name = "Topics"
