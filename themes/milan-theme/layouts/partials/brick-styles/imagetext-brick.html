@@ -12,7 +12,7 @@ background-image: url({{ (.Scratch.Get "lowres-image").Permalink }})
     {{ end }}
     <div class="card-body pt-2 p-4">
         {{ if eq .Type "banner"}}
-            <h4 class="text-uppercase card-title text-shadow {{ with .Params.titleClass }}{{ . }}{{ end }}" style="{{ with .Params.textColor }}color: {{ . }}{{ end }}"><i><b>{{ .Title }}</b></i></h4>
+            <h5 class="text-uppercase card-title text-shadow {{ with .Params.titleClass }}{{ . }}{{ end }}" style="{{ with .Params.textColor }}color: {{ . }}{{ end }}"><i><b>{{ .Title }}</b></i></h5>
         {{ else }}
             <a class="text-uppercase link-light" href="{{ .Permalink | absLangURL }}"><h4 class="card-title text-shadow {{ with .Params.titleClass }}{{ . }}{{ end }}" style="{{ with .Params.textColor }}color: {{ . }}{{ end }}"><i><b>{{ .Title }}</b></i></h4></a>
         {{ end }}

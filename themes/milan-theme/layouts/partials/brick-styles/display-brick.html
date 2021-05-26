@@ -7,7 +7,7 @@
     </div>
     {{ end }}
     <div class="card-body pt-2 p-4">
-        <a class="link-light text-decoration-sm" href="{{ .Permalink | absLangURL }}"><h4 class="display-3 card-title {{ with .Params.titleClass }}{{ . }}{{ end }}" style="{{ with .Params.textColor }}color: {{ . }}{{ end }}"><i>{{ .Title }}</i></h4></a>
+        <a class="link-light text-decoration-sm" href="{{ .Permalink | absLangURL }}"><h5 class="display-3 card-title {{ with .Params.titleClass }}{{ . }}{{ end }}" style="{{ with .Params.textColor }}color: {{ . }}{{ end }}"><i>{{ .Title }}</i></h5></a>
         <div class="card-text text-muted {{ with .Params.summaryClass }}{{ . }}{{ end }}">{{ .Summary }}</div>
     </div>
     <div class="card-footer border-0 {{ with .Params.footerClass }}{{ . }}{{ end }}">

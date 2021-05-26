@@ -11,9 +11,9 @@
             <div class="card-body pt-3 p-4">
                 {{ if .Params.topics }}
                 {{ range .Params.topics }}
-                <h6 class="card-title pt-2">
+                <h5 class="card-title pt-2">
                     <a class="link-blue text-decoration-none" href="{{ urlize . | absLangURL  }}" {{with $.Params.color }}style="color: {{.}}"{{ end }}><b>/{{ . }}</b></a>
-                </h6>
+                </h5>
                 {{ end }}
                 {{ end }}
 

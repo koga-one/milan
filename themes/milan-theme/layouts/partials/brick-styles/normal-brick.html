@@ -12,7 +12,7 @@
     </div>
     {{ end }}
     <div class="card-body pt-2 p-4">
-        <a class="text-uppercase link-light" href="{{ .Permalink | absLangURL }}"><h4 class="card-title {{ with .Params.titleClass }}{{ . }}{{ end }}" style="{{ with .Params.textColor }}color: {{ . }}{{ end }}"><i><b>{{ .Title }}</b></i></h4></a>
+        <a class="text-uppercase link-light" href="{{ .Permalink | absLangURL }}"><h5 class="card-title {{ with .Params.titleClass }}{{ . }}{{ end }}" style="{{ with .Params.textColor }}color: {{ . }}{{ end }}"><i><b>{{ .Title }}</b></i></h5></a>
         <div class="card-text text-muted {{ with .Params.summaryClass }}{{ . }}{{ end }}">{{ .Summary }}</div>
     </div>
     <div class="card-footer border-0 {{ with .Params.footerClass }}{{ . }}{{ end }}">
