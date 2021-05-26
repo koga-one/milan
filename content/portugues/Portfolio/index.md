@@ -20,21 +20,19 @@ textColor: ""
 thumb: "images/me.jpg"
 ---
 
-**-> Tradução em breve!**
+***<p class="h3">OLÁ MUNDO!</p>***
 
-***<p class="h3">HELLO WORLD!</p>***
+Oie, me chamo **André Koga**. Fundador de startups, desenvolvedor de jogos, web designer, artista digital, amador de esportes, medalhista de olimpíadas científicas, e dono de dois cachorros. Prazer em te conhecer!
 
-I'm **André Koga**, a 18yr old Brazilian startup founder, game developer, web designer, digital artist, sports lover, scientific Olympiads medalist, and owner of two dogs. Nice to meet you!
-
-[<span class="link">Want to send a message?</span>](/)
+[<span class="link">Quer mandar uma mensagem?</span>](/)
 
 ---
 
-###### Education
+###### Educação
 
-##### International Universities
+##### Universidades Internacionais
 
--> Was accepted into 6 USA universities, as follows:
+-> Foi aceito em 6 universidades estadunidenses:
 
 * **University of Toronto, Mississauga** - Studies in Computer Science, Mathematics, and Statistics
 * **University of Toronto, Scarborough** - Co-op Computer Science
@@ -43,147 +41,147 @@ I'm **André Koga**, a 18yr old Brazilian startup founder, game developer, web d
 * **Purdue University** - Computer Science in the College of Science at West Lafayette
 * **Georgia Institute of Technology** - Major at Computer Science
 
-##### High School
+##### Ensino Médio
 
-**Colégio Farias Brito, Fortaleza, Ceará** - Was recruited by the school due to excellent performance on Scientific Olympiads and awarded with a full-ride; participated in an honors class due to the olympiads.
+**Colégio Farias Brito, Fortaleza, Ceará** - Foi convidado pela escola devido à performance em olimpíadas científicas, recebendo uma bolsa integral. partipava em uma turma *honors* devido às olimpíadas.
 
-* Average Grade: 9.9/10 - Top 1% Student
+* Nota média: 9.9/10 - Top 1%
 
 ##### Colégio Mater Amabilis, Guarulhos, São Paulo
 
-* Average Grade: 9.7/10 - 2nd Best Student
+* Nota média: 9.7/10 - 2o melhor estudante
 
 ---
 
-###### Leadership
+###### Liderança
 
-##### CMO of Dupla, a Headhunting Start-Up - 2021 to current
-One of the 3 founders. Was hired as the Chief Marketing Officer, taking care of the branding, webdesign, and marketing on social medias.
+##### CMO da Dupla, uma Startup sobre headhunting - desde 2021
+Um dos dois fundadores. Foi contratado como o CMO (marketing), gerenciando o *branding, webdesign, e marketing* nas redes sociais.
 
-* Posts weekly Instagram ads and branding related content to generate engagement
+* Posta semanalmente no Instagram conteúdo relacionado à marca para gerar *engagement*
 
-##### Co-founder of Good Luck Collective, a Game-Dev Group - 2021 to current
-One of the 4 creators. Is currently the brand manager of the group. Helps with the coding, art, and design of the games.
+##### Co-fundador da Good Luck Collective, um grupo de desenvolvimento de jogos - desde 2021
+Um dos quatro fundadores. É atualmente o *brand manager* do grupo. Ajuda com a programação, arte e design dos jogos.
 
-* Got 36th place on the recent Brackeys 5th game-jam.
+* Conseguiu 36o lugar na quinta edição do Brackeys Game Jam
 
-##### Creator of the website bykoga.com (formerly TTC) - 10th grade to current
-Initiator, designer, and blogger of the personal website and blog "bykoga" (formerly known as The Thought Compiler).
+##### Criador do site bykoga.com (antigamente TTC) - desde o 1EM
+Fundador, designer e blogger do site pessoal "by.koga" (antigamente conhecido como The Thought Compiler).
 
-* Posts daily content
+* Posta conteúdo diário
 
-##### Videogames developer (formerly Orion Core) - 6th grade to current
-Has been developing games since the 6th grade, which includes coding, graphics, sound design, game mechanics, and advertisement.
+##### Desenvolvedor de jogos by.koga (antigamente Orion Core) - desde o 6o Fund II
+Tem desenvolvido jogos desde o sexto ano, incluindo programação, gráficos, design de som, mecânicas de jogos, e propaganda.
 
-* Launched over 6 games on Google Play and Itch.io (itch.io), finished over 20 smaller games.
-* Developing Kemple
+* Já lançou mais de 6 jogos na Google Play e Itchio. Já terminou mais de 20 projetos menores.
+* Atualmente desenvolvendo a série (almost).
 
-##### Founder of Nery, a Medical Start-Up - 12th grade
-One of the 3 founders. Reinvested the money from the prize of the MIT Hackmed Brasil Competition (2nd place) to support the operation. Contributes UI/UX knowledge to strengthen and develop the users' interfaces and experiences on the app and website, creating a solid brand for the organization.
+##### Fundador da Nery, uma startup médica - 12th grade
+Um dos 3 fundadores. Reinvestiu o dinheiro do prêmio da 1a edição da MIT Hackmed Brasil (segundo lugar) para auxiliar no projeto. Contribuiu com conhecimento de UI/UX para facilitar e desenvolver a interface dos usuários e experiência para como o aplicativo e site, criando uma marca sólida para a organização.
 
-* Stopped due to COVID related issues
-
----
-
-###### Community
-
-##### Previous Vice-President of NOIC, an Education NGO - 10th grade to 12th grade
-Supervised over 40 members; other responsibilities include redesigning the whole platform interface and brand, managing the website contents, and organizing major events (such as online meetings, livestreams and Q&A with our content creators, and fundraising - supervised 2 fundraising events until now). The [<span class="link">website team</span>](https://www.noic.com.br) has released over a thousand classes and posts and drawn over almost 2 million viewers, 40 thousand monthly. The monthly views **doubled** after the platform redesign.
+* Parou devido a problemas relacionados à COVID
 
 ---
 
-###### Skills
-* **Arts** - Digital (Krita, Clip Studio Paint, GIMP, Inkscape) and Traditional art (drawing, painting)
-* **Linguistics** - English and Portuguese
-* **Game Development** - Game Jams, Itch.io, Google Play
-* **Leadership** - Dupla's CMO, Good Luck Collective co-founder, NOIC's vice-president, Nery co-founder
-* **Problem-solving** - Scientific Olympiads, Chess
-* **Programming** - C#, JS, Python, PHP, CSS and HTML, Markdown, and more
-* **Scientific Knowledge** - Math, CS, Physics, Robotics, A&A
+###### Comunidade
+
+##### Ex Vice-Presidente do NOIC, uma ONG educacional - do 1EM até o 3EM
+Gerenciava mais de 40 membros; outras responsabilidades incluiam fazer uma reforma completa da plataforma e marca, gerenciando o conteúdo do site, e organizando eventos (como reuniões online, livestreams e Q&A com os criadores de conteúdo), além de projetos de *fundraising*. O [<span class="link">time do site</span>](https://www.noic.com.br) já lançou mais de mil posts educacionais e atraiu mais de 2 milhões de visualizações, aproximadamente 40 mil por mês. As visualizações mensais **dobraram** depois do redesign da plataforma.
+
+---
+
+###### Habilidades
+* **Artes** - Digital (Krita, Clip Studio Paint, GIMP, Inkscape) e Tradicional (desenho e pintura)
+* **Línguas** - Inglês, Português
+* **Desenvolvimento de Jogos** - Game Jams, Itch.io, Google Play
+* **Liderança** - CMO da Dupla, co-fundador Good Luck Collective, ex vice-presidente NOIC, co-fundador Nery
+* **Problem-solving** - Olimpíadas científicas, xadrez
+* **Programação** - C#, JS, Python, PHP, CSS e HTML, Markdown, e mais
+* **Conhecimento Científico** - Matemática, Computação, Física, Robótica, Astronomia e Astronáutica
 * **Web Design** - The Thought Compiler, [NOIC](noic.com.br), Nery, [bykoga](bykoga.com), [DUPLA](duplatech.com)
-* **Writer** - bykoga's posts, Book "Em Cartaz"
-* **Influencer** - bykoga's Twitter, Instagram art account, etc
-* **Video Editor** - YouTube video-game highlights
+* **Escritor** - Posts de by.koga, livro "Em Cartaz"
+* **Influencer** - Redes sociais como o Twitter e Instagram
+* **Editor de Vídeos** - Highlights de jogos no YT
 
 ---
 
-###### Awards
+###### Prêmios
 
-##### 2014 - 6th grade
+##### 2014 - 6o Fund II
 
--> Updates coming soon
+-> Atualizações em breve
 
-**-> National:**
+**-> Nacional:**
 
-**-> State:**
+**-> Estadual:**
 
-##### 2015 - 7th grade
+##### 2015 - 7o Fund II
 
--> Updates coming soon
+-> Atualizações em breve
 
-**-> International:**
+**-> Internacional:**
 
-**-> National:**
+**-> Nacional:**
 
-**-> State:**
+**-> Estadual:**
 
-##### 2016 - 8th grade
-**-> National:**
-* **GOLD** - Math, [<span class="link">Mat. do Poliedro</span>](https://www.sistemapoliedro.com.br/omp/)
-* **GOLD** - Math, [<span class="link">Sem Fronteiras Nac.</span>](http://matematicasemfronteiras.org/index.html)
-* **GOLD** - Math, [<span class="link">Canguru de Mat.</span>](https://www.cangurudematematicabrasil.com.br/)
-* **GOLD** - A&A, [<span class="link">Brazilian of A&A</span>](http://www.oba.org.br/site/)
-* **GOLD** - Phys., [<span class="link">Brazilian of Phys.</span>](http://www.sbfisica.org.br/v1/olimpiada/2020/)
-* **SILVER**  - RBT, [<span class="link">Brazilian of Robot.</span>](http://www.obr.org.br/)
-* **BRONZE**  - Math, [<span class="link">Brazilian of Math</span>](https://www.obm.org.br/)
-* **BRONZE**  - CS, [<span class="link">Brazilian of CS</span>](https://olimpiada.ic.unicamp.br/)
-* **BRONZE**  - Chem., [<span class="link">Brazilian of Chem.</span>](https://www.obquimica.org/olimpiadas/index/)
+##### 2016 - 8o Fund II
+**-> Nacional:**
+* **OURO** - Matemática, [<span class="link">Mat. do Poliedro</span>](https://www.sistemapoliedro.com.br/omp/)
+* **OURO** - Matemática, [<span class="link">Sem Fronteiras Nac.</span>](http://matematicasemfronteiras.org/index.html)
+* **OURO** - Matemática, [<span class="link">Canguru de Mat.</span>](https://www.cangurudematematicabrasil.com.br/)
+* **OURO** - A&A, [<span class="link">Brasileira de A&A</span>](http://www.oba.org.br/site/)
+* **OURO** - Física, [<span class="link">Brasileira de Física</span>](http://www.sbfisica.org.br/v1/olimpiada/2020/)
+* **PRATA**  - Robótica, [<span class="link">Brasileira de Robot.</span>](http://www.obr.org.br/)
+* **BRONZE**  - Matemática, [<span class="link">Brasileira de Matemática</span>](https://www.obm.org.br/)
+* **BRONZE**  - Computação, [<span class="link">Brasileira de CS</span>](https://olimpiada.ic.unicamp.br/)
+* **BRONZE**  - Quím., [<span class="link">Brasileira de Quím.</span>](https://www.obquimica.org/olimpiadas/index/)
 
-**-> State:**
-* **GOLD** - Math, [<span class="link">Sem Fronteiras Reg.</span>](http://matematicasemfronteiras.org/index.html)
-* **GOLD** - Math, [<span class="link">Mat. da Unicamp</span>](http://www.opf.pro.br/)
+**-> Estadual:**
+* **OURO** - Matemática, [<span class="link">Sem Fronteiras Reg.</span>](http://matematicasemfronteiras.org/index.html)
+* **OURO** - Matemática, [<span class="link">Mat. da Unicamp</span>](http://www.opf.pro.br/)
 
-##### 2017 - 9th grade
-**-> International:**
-* **SILVER** - Math, [<span class="link">OMCPLP</span>](http://omcplp.obmep.org.br/)
-* **BRONZE** - Math, [<span class="link">OMR</span>](http://www.oma.org.ar/internacional/omr.htm)
+##### 2017 - 9o Fund II
+**-> Internacional:**
+* **PRATA** - Matemática, [<span class="link">OMCPLP</span>](http://omcplp.obmep.org.br/)
+* **BRONZE** - Matemática, [<span class="link">OMR</span>](http://www.oma.org.ar/internacional/omr.htm)
 
-**-> National:**
-* **GOLD** - Math, [<span class="link">OBMEP</span>](http://www.obmep.org.br/)
-* **GOLD** - Math, [<span class="link">Mat. do Poliedro</span>](https://www.sistemapoliedro.com.br/omp/)
-* **GOLD** - Math, [<span class="link">Canguru de Mat.</span>](https://www.cangurudematematicabrasil.com.br/)
-* **GOLD** - Math, [<span class="link">Sem Fronteiras Nac.</span>](http://matematicasemfronteiras.org/index.html)
-* **SILVER** - Phys., [<span class="link">Brazilian of Phys.</span>](http://www.sbfisica.org.br/v1/olimpiada/2020/)
-* **SILVER** - RBT, [<span class="link">Brazilian of Robot.</span>](http://www.obr.org.br/)
-* **HM** - Chem., [<span class="link">Brazilian of Chem.</span>](https://www.obquimica.org/olimpiadas/index/olimpiada-brasileira-de-quimica-junior)
+**-> Nacional:**
+* **OURO** - Matemática, [<span class="link">OBMEP</span>](http://www.obmep.org.br/)
+* **OURO** - Matemática, [<span class="link">Mat. do Poliedro</span>](https://www.sistemapoliedro.com.br/omp/)
+* **OURO** - Matemática, [<span class="link">Canguru de Mat.</span>](https://www.cangurudematematicabrasil.com.br/)
+* **OURO** - Matemática, [<span class="link">Sem Fronteiras Nac.</span>](http://matematicasemfronteiras.org/index.html)
+* **PRATA** - Física, [<span class="link">Brasileira de Física</span>](http://www.sbfisica.org.br/v1/olimpiada/2020/)
+* **PRATA** - Robótica, [<span class="link">Brasileira odef Robot.</span>](http://www.obr.org.br/)
+* **HM** - Quím., [<span class="link">Brasileira de Quím.</span>](https://www.obquimica.org/olimpiadas/index/olimpiada-brasileira-de-quimica-junior)
 
 
-**-> State:**
-* **GOLD** - Math, [<span class="link">Sem Fronteiras Reg.</span>](http://matematicasemfronteiras.org/index.html)
-* **GOLD** - Math, [<span class="link">Paulista of Math</span>](http://www.opm.mat.br/)
-* **GOLD** - Math, [<span class="link">Mat. da Unicamp</span>](http://www.opf.pro.br/)
-* **SILVER** - Phys., [<span class="link">Paulista of Physics</span>](http://www.opf.pro.br/)
+**-> Estadual:**
+* **OURO** - Matemática, [<span class="link">Sem Fronteiras Reg.</span>](http://matematicasemfronteiras.org/index.html)
+* **OURO** - Matemática, [<span class="link">Paulista de Matemática</span>](http://www.opm.mat.br/)
+* **OURO** - Matemática, [<span class="link">Mat. da Unicamp</span>](http://www.opf.pro.br/)
+* **PRATA** - Física, [<span class="link">Paulista de Física</span>](http://www.opf.pro.br/)
 
-##### 2018 - 10th grade
-**-> National:**
-* **GOLD** - Math, [<span class="link">Canguru de Mat.</span>](https://www.cangurudematematicabrasil.com.br/)
-* **SILVER** - A&A, [<span class="link">Brazilian of A&A</span>](http://www.oba.org.br/site/)
-* **BRONZE** - Math, [<span class="link">Brazilian of Math</span>](https://www.obm.org.br/)
-* **HM** - Phys., [<span class="link">Brazilian of Phys.</span>](http://www.sbfisica.org.br/v1/olimpiada/2020/)
+##### 2018 - 1EM
+**-> Nacional:**
+* **OURO** - Matemática, [<span class="link">Canguru de Mat.</span>](https://www.cangurudematematicabrasil.com.br/)
+* **PRATA** - A&A, [<span class="link">Brasileira de A&A</span>](http://www.oba.org.br/site/)
+* **BRONZE** - Matemática, [<span class="link">Brasileira de Matemática</span>](https://www.obm.org.br/)
+* **HM** - Física, [<span class="link">Brasileira de Física</span>](http://www.sbfisica.org.br/v1/olimpiada/2020/)
 
-**-> State:**
-* **SILVER** - Math, [<span class="link">Paulista of Math</span>](http://www.opm.mat.br/)
+**-> Estadual:**
+* **PRATA** - Matemática, [<span class="link">Paulista de Matemática</span>](http://www.opm.mat.br/)
 
-##### 2019 - 11th grade
-**-> National:**
-* **GOLD** - Math, [<span class="link">Canguru de Mat.</span>](https://www.cangurudematematicabrasil.com.br/)
-* **BRONZE** - Math, [<span class="link">OBMEP</span>](http://www.obmep.org.br/)
-* **HM** - Math, [<span class="link">Brazilian of Math</span>](https://www.obm.org.br/)
+##### 2019 - 2EM
+**-> Nacional:**
+* **OURO** - Matemática, [<span class="link">Canguru de Mat.</span>](https://www.cangurudematematicabrasil.com.br/)
+* **BRONZE** - Matemática, [<span class="link">OBMEP</span>](http://www.obmep.org.br/)
+* **HM** - Matemática, [<span class="link">Brasileira de Matemática</span>](https://www.obm.org.br/)
 
-##### 2020 - 12th grade
-**-> National:**1
-* **2ND PLACE** - [<span class="link">MIT Hackmed Hackathon</span>](https://hackingmedicine.mit.edu)
+##### 2020 - 3EM
+**-> Nacional:**1
+* **2o LUGAR** - [<span class="link">MIT Hackmed Hackathon</span>](https://hackingmedicine.mit.edu)
 
 ##### 2021
-**-> International:**
-* **36TH OUT OF 1.8K** - [Brackeys Game Jam](https://itch.io/jam/brackeys-5)
+**-> Internacional:**
+* **36o DE 1.6 MIL** - [Brackeys Game Jam](https://itch.io/jam/brackeys-5)

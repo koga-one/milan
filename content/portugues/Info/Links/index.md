@@ -3,7 +3,7 @@
 title: "Links"
 subtitle: "Links"
 slug:
-type: "post"
+type: "info"
 date: 2021-05-22T14:14:38-03:00
 translationKey: "Links"
 
@@ -46,5 +46,5 @@ summary: ""
     <a href="https://www.instagram.com/by.koga/" target="_null" class="col m-1 btn btn-sm btn-instagram">Instagram</a>
     <a href="https://bykoga.itch.io" target="_null" class="col m-1 btn btn-sm btn-itchio">Itch.io</a>
     <a href="https://www.linkedin.com/in/andrehkoga/" target="_null" class="col m-1 btn btn-sm btn-linkedin">LinkedIn</a>
-    <a href="https://play.google.com/store/apps/details?id=com.by.koga.almosttictactoe" target="_null" class="text-nowrap col m-1 btn btn-sm btn-gplay">Google Play</a>
+    <a href="https://play.google.com/store/apps/dev?id=5749521658391593192" target="_null" class="text-nowrap col m-1 btn btn-sm btn-gplay">Google Play</a>
 </div>

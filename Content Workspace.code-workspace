@@ -11,6 +11,9 @@
 		},
 		{
 			"path": "static"
+		},
+		{
+			"path": "i18n"
 		}
 	],
 	"settings": {}

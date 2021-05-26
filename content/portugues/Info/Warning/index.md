@@ -3,7 +3,7 @@
 title: "Ei!"
 subtitle: "Warning"
 slug:
-type: "post"
+type: "info"
 date: 2021-05-22T15:14:53-03:00
 translationKey: "Warning"
 

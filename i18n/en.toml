@@ -23,3 +23,11 @@
 [readingTime]
   one = "One minute to read"
   other = "{{.Count}} minutes to read"
+[draft]
+  other = "draft"
+[latest]
+  other = "latest"
+[new]
+  other = "new"
+[all]
+  other = "all posts"

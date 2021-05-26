@@ -68,7 +68,7 @@ One of the 4 creators. Is currently the brand manager of the group. Helps with t
 * Got 36th place on the recent Brackeys 5th game-jam.
 
 ##### Creator of the website bykoga.com (formerly TTC) - 10th grade to current
-Initiator, designer, and blogger of the personal website and blog "bykoga" (formerly known as The Thought Compiler).
+Initiator, designer, and blogger of the personal website and blog "by.koga" (formerly known as The Thought Compiler).
 
 * Posts daily content
 
@@ -76,7 +76,7 @@ Initiator, designer, and blogger of the personal website and blog "bykoga" (form
 Has been developing games since the 6th grade, which includes coding, graphics, sound design, game mechanics, and advertisement.
 
 * Launched over 6 games on Google Play and Itch.io (itch.io), finished over 20 smaller games.
-* Developing Kemple
+* Developing the (almost) series
 
 ##### Founder of Nery, a Medical Start-Up - 12th grade
 One of the 3 founders. Reinvested the money from the prize of the MIT Hackmed Brasil Competition (2nd place) to support the operation. Contributes UI/UX knowledge to strengthen and develop the users' interfaces and experiences on the app and website, creating a solid brand for the organization.
@@ -87,7 +87,7 @@ One of the 3 founders. Reinvested the money from the prize of the MIT Hackmed Br
 
 ###### Community
 
-##### Previous Vice-President of NOIC, an Education NGO - 10th grade to 12th grade
+##### Ex Vice-President of NOIC, an Education NGO - 10th grade to 12th grade
 Supervised over 40 members; other responsibilities include redesigning the whole platform interface and brand, managing the website contents, and organizing major events (such as online meetings, livestreams and Q&A with our content creators, and fundraising - supervised 2 fundraising events until now). The [<span class="link">website team</span>](https://www.noic.com.br) has released over a thousand classes and posts and drawn over almost 2 million viewers, 40 thousand monthly. The monthly views **doubled** after the platform redesign.
 
 ---

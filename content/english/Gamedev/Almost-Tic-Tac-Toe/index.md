@@ -20,7 +20,7 @@ style: "image"
 size: "sm"
 color: "#FCC396"
 textColor: "#533340"
-weight: "1"
+weight: ""
 
 # Custom Classes
 headerClass: ""
