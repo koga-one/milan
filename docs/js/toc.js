@@ -26,7 +26,7 @@
     var currentSubUl;
 
     headings.forEach(function (heading, index) {
-        var nospace = heading.textContent.toLowerCase().replace(' ', '-');
+        var nospace = heading.textContent.toLowerCase().replaceAll(' ', '_');
 
         var anchor = documentRef.createElement('a');
         anchor.setAttribute('id', nospace);

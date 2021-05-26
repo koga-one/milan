@@ -1,20 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>by.koga</title>
+    <title>Página Inicial on by.koga</title>
     <link>https://bykoga.com/pt-br/</link>
-    <description>Recent content on by.koga</description>
+    <description>Recent content in Página Inicial on by.koga</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 26 May 2021 11:02:01 -0300</lastBuildDate><atom:link href="https://bykoga.com/pt-br/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>(Almost) Tic Tac Toe</title>
-      <link>https://bykoga.com/pt-br/gamedev/almost-tic-tac-toe/</link>
-      <pubDate>Wed, 26 May 2021 11:02:01 -0300</pubDate>
-      
-      <guid>https://bykoga.com/pt-br/gamedev/almost-tic-tac-toe/</guid>
-      <description> Google Play Itchio  </description>
-    </item>
-    
+    <lastBuildDate>Fri, 30 Apr 2021 19:11:56 -0300</lastBuildDate><atom:link href="https://bykoga.com/pt-br/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Música</title>
       <link>https://bykoga.com/pt-br/musica/banner/</link>
@@ -22,24 +13,6 @@
       
       <guid>https://bykoga.com/pt-br/musica/banner/</guid>
       <description>“Depois do silêncio, música é a melhor para se expressar o inexpressável.” – Aldous Huxley</description>
-    </item>
-    
-    <item>
-      <title>Ei!</title>
-      <link>https://bykoga.com/pt-br/info/warning/</link>
-      <pubDate>Sat, 22 May 2021 15:14:53 -0300</pubDate>
-      
-      <guid>https://bykoga.com/pt-br/info/warning/</guid>
-      <description>Os posts estão sobrepostos? Recarregue o site!</description>
-    </item>
-    
-    <item>
-      <title>Links</title>
-      <link>https://bykoga.com/pt-br/info/links/</link>
-      <pubDate>Sat, 22 May 2021 14:14:38 -0300</pubDate>
-      
-      <guid>https://bykoga.com/pt-br/info/links/</guid>
-      <description>TwitterInstagramItch.ioLinkedInGoogle Play</description>
     </item>
     
     <item>
@@ -88,6 +61,39 @@
     </item>
     
     <item>
+      <title>Patchnotes</title>
+      <link>https://bykoga.com/pt-br/patchnotes/</link>
+      <pubDate>Wed, 26 May 2021 18:50:27 -0300</pubDate>
+      
+      <guid>https://bykoga.com/pt-br/patchnotes/</guid>
+      <description>INITIAL RELEASE - v1 O primeiro lançamento oficial do site!
+-&amp;gt; Criação da página patchnotes!
+-&amp;gt; Herobrine removido
+TOPICS COLORING - v1.01 Esse update trouxe cores para os tópicos e suas respectivas páginas!
+-&amp;gt; Agora, páginas como as música e jornal tem suas próprias cores temáticas
+HOMEPAGE IMPROVEMENT - v1.02 Adicionadas novas funcões para a página inicial:
+-&amp;gt; Agora os posts são divididos entre &amp;ldquo;mais recente&amp;rdquo;, &amp;ldquo;informações&amp;rdquo;, &amp;ldquo;rascunhos&amp;rdquo; e &amp;ldquo;todos os posts&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title>Projeto em Progresso!</title>
+      <link>https://bykoga.com/pt-br/info/wip/</link>
+      <pubDate>Wed, 26 May 2021 18:40:49 -0300</pubDate>
+      
+      <guid>https://bykoga.com/pt-br/info/wip/</guid>
+      <description>Eu estou constantemente melhorando o site! Cheque os patchnotes para saber mais!</description>
+    </item>
+    
+    <item>
+      <title>(Almost) Tic-Tac-Toe</title>
+      <link>https://bykoga.com/pt-br/gamedev/almost-tic-tac-toe/</link>
+      <pubDate>Wed, 26 May 2021 11:02:01 -0300</pubDate>
+      
+      <guid>https://bykoga.com/pt-br/gamedev/almost-tic-tac-toe/</guid>
+      <description> Google Play Itchio  </description>
+    </item>
+    
+    <item>
       <title>Scaled and Icy</title>
       <link>https://bykoga.com/pt-br/musica/017/</link>
       <pubDate>Tue, 25 May 2021 13:51:22 -0300</pubDate>
@@ -126,13 +132,31 @@ Me sentindo bem produtivo recentemente! Ao me preocupar menos com rotinas, eu co
     </item>
     
     <item>
+      <title>Ei!</title>
+      <link>https://bykoga.com/pt-br/info/warning/</link>
+      <pubDate>Sat, 22 May 2021 15:14:53 -0300</pubDate>
+      
+      <guid>https://bykoga.com/pt-br/info/warning/</guid>
+      <description>Os posts estão sobrepostos? Recarregue o site!</description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>https://bykoga.com/pt-br/info/links/</link>
+      <pubDate>Sat, 22 May 2021 14:14:38 -0300</pubDate>
+      
+      <guid>https://bykoga.com/pt-br/info/links/</guid>
+      <description>TwitterInstagramItch.ioLinkedInGoogle Play</description>
+    </item>
+    
+    <item>
       <title>Terminei o meu jogo!</title>
       <link>https://bykoga.com/pt-br/jornal/013/</link>
       <pubDate>Fri, 21 May 2021 21:23:03 -0300</pubDate>
       
       <guid>https://bykoga.com/pt-br/jornal/013/</guid>
       <description>#013
-Aqui estão os links para o jogo, ele é chamado (almost) tic-tac-toe:
+Aqui estão os links para o jogo, ele é chamado (almost) tic-tac-toe:
  Google Play Itch.io  Mais detalhes no streak semanal!</description>
     </item>
     
@@ -154,7 +178,7 @@ Tenha um bom dia!</description>
       
       <guid>https://bykoga.com/pt-br/jornal/010-011/</guid>
       <description>#010 e #011
-Não se preocupe, eu estou bem. O fato é que eu tive um exame relativamente cansativo durante a noite, afetando ontem e hoje. Entãaao, eu estou bem cansado. Os streaks, porém, continuam!</description>
+Não se preocupe, eu estou bem. O fato é que eu tive um exame relativamente cansativo durante a noite, afetando ontem e hoje. Entãaao, eu estou bem cansado. Os streaks, porém, continuam!</description>
     </item>
     
     <item>
@@ -166,7 +190,7 @@ Tenha um bom dia!</description>
       <description>#009
 &amp;hellip;Oi? Então você está me dizendo que eu pulei um dia? Não não, isso deve ser um erro *cof cof*
 &amp;hellip;Aqui, um desenho. Pra você!
-EU PROMETO que eu vou escrever a atualização semanal esse sábado! Aqui, eu até vou deixar como um rascunho já!</description>
+EU PROMETO que eu vou escrever a atualização semanal esse sábado! Aqui, eu até vou deixar como um rascunho já!</description>
     </item>
     
     <item>
@@ -177,7 +201,7 @@ Tenha um bom dia!</description>
       <guid>https://bykoga.com/pt-br/jornal/008/</guid>
       <description>#008
 Amanhã eu irei atualizá-los quanto aos meus afazeres e acontecimentos recentes. Por enquanto, aqui está um desenho meu!
-</description>
+</description>
     </item>
     
     <item>
@@ -188,7 +212,7 @@ Amanhã eu irei atualizá-los quanto aos meus afazeres e acontecimentos recentes
       <guid>https://bykoga.com/pt-br/jornal/007-/</guid>
       <description>#007
 Opa, eu me confundi com os números. Bom, esse aqui é o real 007. Enfim, aqui está o desenho de hoje. Eu prometo que estou tentando arranjar mais tempo para escrever outras coisas aqui no site. É só que&amp;hellip; eu estou tão ocupado recentemente, sem dizer que a minha rotina tá uma m*rda no momento
-</description>
+</description>
     </item>
     
     <item>
@@ -198,7 +222,7 @@ Opa, eu me confundi com os números. Bom, esse aqui é o real 007. Enfim, aqui e
       
       <guid>https://bykoga.com/pt-br/jornal/007/</guid>
       <description>Outro dia, outro desenho. Hoje eu finalmente acordei no horário! Infelizmente esse desenho não atingiu minhas expectativas, mas ei&amp;hellip; Eu desenho todo dia! Alguns desenhos não vão ficar muito bons, e tá tudo bem. Tudo que importa é que eu apenas prossiga
-</description>
+</description>
     </item>
     
     <item>
@@ -220,7 +244,7 @@ pshh - Ocupado estudando para a minha prova de direção (teórica) amanhã!</de
       <description>#005
 Mds! Acabei de terminar esse desenho. É muito encorajador quando você olha pra trás e percebe que está melhorando! Ah, e eu também estou alterando minha rotina com um novo sistema que eu chamei de &amp;ldquo;Os Quatros&amp;rdquo;. Ele vai me ajudar a ter mais tempo para escrever também, então talvez esse site comece a ficar mais ativo ;)
 link para a imagem
-</description>
+</description>
     </item>
     
     <item>
@@ -286,13 +310,12 @@ A partir de agora, eu vou tentar manter meu planejamento e rotina focando em str
       <pubDate>Fri, 30 Apr 2021 19:39:40 -0300</pubDate>
       
       <guid>https://bykoga.com/pt-br/portfolio/</guid>
-      <description>-&amp;gt; Tradução em breve!
-HELLO WORLD!
+      <description>OLÁ MUNDO!
 
-I&amp;rsquo;m André Koga, a 18yr old Brazilian startup founder, game developer, web designer, digital artist, sports lover, scientific Olympiads medalist, and owner of two dogs. Nice to meet you!
-Want to send a message?
- Education International Universities -&amp;gt; Was accepted into 6 USA universities, as follows:
- University of Toronto, Mississauga - Studies in Computer Science, Mathematics, and Statistics University of Toronto, Scarborough - Co-op Computer Science University of Toronto, Innis College - Studies in Computer Science at the Faculty of Arts and Science University of British Columbia - Bachelor of Applied Science Program Purdue University - Computer Science in the College of Science at West Lafayette Georgia Institute of Technology - Major at Computer Science  High School Colégio Farias Brito, Fortaleza, Ceará - Was recruited by the school due to excellent performance on Scientific Olympiads and awarded with a full-ride; participated in an honors class due to the olympiads.</description>
+Oie, me chamo André Koga. Fundador de startups, desenvolvedor de jogos, web designer, artista digital, amador de esportes, medalhista de olimpíadas científicas, e dono de dois cachorros. Prazer em te conhecer!
+Quer mandar uma mensagem?
+ Educação Universidades Internacionais -&amp;gt; Foi aceito em 6 universidades estadunidenses:
+ University of Toronto, Mississauga - Studies in Computer Science, Mathematics, and Statistics University of Toronto, Scarborough - Co-op Computer Science University of Toronto, Innis College - Studies in Computer Science at the Faculty of Arts and Science University of British Columbia - Bachelor of Applied Science Program Purdue University - Computer Science in the College of Science at West Lafayette Georgia Institute of Technology - Major at Computer Science  Ensino Médio Colégio Farias Brito, Fortaleza, Ceará - Foi convidado pela escola devido à performance em olimpíadas científicas, recebendo uma bolsa integral.</description>
     </item>
     
     <item>

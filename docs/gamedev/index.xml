@@ -7,21 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 30 Apr 2021 19:20:39 -0300</lastBuildDate><atom:link href="https://bykoga.com/gamedev/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>(Almost) Tic Tac Toe</title>
-      <link>https://bykoga.com/gamedev/almost-tic-tac-toe/</link>
-      <pubDate>Wed, 26 May 2021 11:02:01 -0300</pubDate>
-      
-      <guid>https://bykoga.com/gamedev/almost-tic-tac-toe/</guid>
-      <description> Google Play Itchio  </description>
-    </item>
-    
-    <item>
       <title>Game dev</title>
       <link>https://bykoga.com/gamedev/banner/</link>
       <pubDate>Fri, 30 Apr 2021 19:20:39 -0300</pubDate>
       
       <guid>https://bykoga.com/gamedev/banner/</guid>
       <description>“Every game brings me closer and closer to making what I imagine, that&amp;rsquo;s why I could never stop making games.” – Kojima Hideo</description>
+    </item>
+    
+    <item>
+      <title>(Almost) Tic-Tac-Toe</title>
+      <link>https://bykoga.com/gamedev/almost-tic-tac-toe/</link>
+      <pubDate>Wed, 26 May 2021 11:02:01 -0300</pubDate>
+      
+      <guid>https://bykoga.com/gamedev/almost-tic-tac-toe/</guid>
+      <description> Google Play Itchio  </description>
     </item>
     
   </channel>
