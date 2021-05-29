@@ -39,8 +39,8 @@ footerClass: ""
 
 ***#020***
 
-Lidando com papelada da Georgia Tech! Dificuldades técnicas, ainda bem que não é nada sério. Ter um bom mentor para te ajudar é muito valioso...
+Dealing with some paperwork from Georgia Tech! Technical difficulties, thankfully nothing serious. Having a good mentor to help you out goes a long way...
 
 ---
 
-Ah,  eu também estou com o meu celular / acessórios (protetor de tela, capinha e bateria portátil). É impressionante quão rápido tecnologia tem progredido! Alguns anos atrás, um celular com tela 120Hz, bateria de 4000mAh e conjunto quad-camera seria impressionantemente caro.
+Ah, I also got my new phone / accessories (screen protector and case, as well as a power bank). It is amazing how fast tech has been progressing! Few years ago, a cellphone with 120Hz screen, 4000mAh battery and quad-camera setup would be amazingly expensive.

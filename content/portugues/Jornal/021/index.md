@@ -1,10 +1,10 @@
 ---
 # Essential settings
-title: "Georgia Tech!"
-subtitle: "020"
+title: "GT Meeting!"
+subtitle: "021"
 type: "post"
-date: 2021-05-28T17:37:57-03:00
-translationKey: "020"
+date: 2021-05-29T10:03:19-03:00
+translationKey: "021"
 
 # Scheduling
 draft: false
@@ -37,10 +37,10 @@ footerClass: ""
 #</div>
 ---
 
-***#020***
+***#021***
 
-Lidando com papelada da Georgia Tech! Dificuldades técnicas, ainda bem que não é nada sério. Ter um bom mentor para te ajudar é muito valioso...
+Terei uma reunião com meus colegas brasileiros *freshmen* da GT em 30 minutos! Vai ser bem divertido poder conhecê-los pela primeira vez. Falando nisso, eu também tenho que decidir quem será meu colega de quarto. Será que eu deveria simplesmente ir no aleatório?
 
----
-
-Ah, eu também estou com o meu celular / acessórios (protetor de tela, capinha e bateria portátil). É impressionante quão rápido tecnologia tem progredido! Alguns anos atrás, um celular com tela 120Hz, bateria de 4000mAh e conjunto quad-camera seria impressionantemente caro.
+<div class="row d-flex justify-content-center">
+    {{< imgproc path="images/gt.jpeg" method="Fill" size="320x180" col="12" >}}
+</div>

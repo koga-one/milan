@@ -80,6 +80,38 @@
                 href="https://bykoga.com/art/banner/"
                 />
   </url><url>
+    <loc>https://bykoga.com/info/rascunhos/</loc>
+    <lastmod>2021-05-29T10:06:52-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/info/rascunhos/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/info/rascunhos/"
+                />
+  </url><url>
+    <loc>https://bykoga.com/journal/021/</loc>
+    <lastmod>2021-05-29T10:03:19-03:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt-br"
+                href="https://bykoga.com/pt-br/jornal/021/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://bykoga.com/journal/021/"
+                />
+  </url><url>
+    <loc>https://bykoga.com/journal/023-m/</loc>
+    <lastmod>2021-05-29T10:01:26-03:00</lastmod>
+  </url><url>
+    <loc>https://bykoga.com/journal/022-w/</loc>
+    <lastmod>2021-05-29T10:01:06-03:00</lastmod>
+  </url><url>
     <loc>https://bykoga.com/journal/020/</loc>
     <lastmod>2021-05-28T17:37:57-03:00</lastmod>
     <xhtml:link
