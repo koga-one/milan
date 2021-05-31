@@ -29,7 +29,7 @@ summaryClass: ""
 footerClass: ""
 
 # Thumbnail / Featured
-summary: "***#023 - Month 1***<br><br>First \"big\" milestone reached! Yay to us!"
+summary: "***#023 - Mês 1***<br><br>Primeira \"grande\" *milestone* alcançada! Yay pra gente!"
 thumb: "images/confetti.jpg"
 alt: "CONFETTI!"
 
