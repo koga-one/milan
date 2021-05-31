@@ -12,7 +12,7 @@ draft: false
 
 # Organization
 layout:
-topics: ["journal"]
+topics: ["jornal"]
 tags: []
 
 # Style
@@ -43,10 +43,10 @@ alt: "Esse é o placeholder"
 #</div>
 ---
 
-***#022 - Week 2***
+***#022 - Semana 2***
 
-**I FINALLY REMOVED THE SUTURE I HAD IN MY MOUTH. I CAN FINALLY GO BACK TO A NORMAL & HAPPY LIFE!!!** (a bit dramatic, yes)
+**EU FINALMENTE REMOVI AS SUTURAS QUE EU TINHA NA MINHA BOCA. EU FINALMENTE PODEREI VOLTAR À MINHA VIDA NORMAL E FELIZ!!!** (um pouco dramático, sim)
 
 ---
 
-I didn't have the energy / time to write a proper weekly post, sorry not sorry :P
+Eu não tinha a energia / tempo para escrever um post semanal apropriado, *sorry not sorry* :P
