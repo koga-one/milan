@@ -1,10 +1,10 @@
 ---
 # Essential settings
-title: "Dupla Tech!"
-subtitle: "024"
+title: "..."
+subtitle: "025"
 type: "post"
-date: 2021-06-01T19:13:19-03:00
-translationKey: "024"
+date: 2021-06-05T17:01:46-03:00
+translationKey: "025"
 
 # Scheduling
 draft: false
@@ -16,9 +16,9 @@ tags: []
 
 # Style
 style: "whisper"
-size: "sm"
-color: "#FF5277"
-textColor: "#FF5277"
+size: "md"
+color: "#f00"
+textColor: "#f00"
 weight: ""
 
 # Custom Classes
@@ -37,14 +37,20 @@ footerClass: ""
 #</div>
 ---
 
-***#024***
+***#025***
 
-UAU! Eu estou trabalhando bastante nos últimos dias!
+-> Sem energia pra traduzir.
 
-Eu sou o CMO da Dupla Tech, como alguns de vocês sabem. Eu também cuido do site, e eu tenho trabalhado nele bastante!
+I... don't have much to say. I was robbed. Knives. Four guys. At home. With my family.
 
-Eu tô bastante orgulhoso, então vão lá [dar uma checada](https://www.duplatech.com)
+No, no one got hurt luckily.
+
+It was traumatizing to say the least.
+
+Hence the delay for my daily posts.
+
+Ttyl.
 
 <div class="row d-flex justify-content-center">
-    {{< imgproc path="images/ig.png" method="Fit" size="400x400" col="12" >}}
+    {{< imgproc path="images/reticences.jpg" method="Fit" size="600x400" col="12" >}}
 </div>
