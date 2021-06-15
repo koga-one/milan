@@ -30,7 +30,7 @@
         <div class="row justify-content-center pb-4">
             {{ range $index, $post := $recent }}
                 {{ $styleurl := partial "wall-parts/with-style.html" (dict "context" . ) }}
-                {{ $sizeurl := partial "wall-parts/with-size.html" (dict "context" . "enlarge" true ) }}
+                {{ $sizeurl := partial "wall-parts/with-size.html" (dict "context" . "enlarge" false ) }}
 
                 <!-- The call -->
                 <div class='{{ partial $sizeurl }} {{ partial "brick-parts/gutter.html" }} position-relative'>
