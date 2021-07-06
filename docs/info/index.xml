@@ -2,52 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Info on by.koga</title>
-    <link>https://bykoga.com/info/</link>
+    <link>https://milan.bykoga.com/info/</link>
     <description>Recent content in Info on by.koga</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 22 May 2021 14:14:21 -0300</lastBuildDate><atom:link href="https://bykoga.com/info/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 May 2021 14:14:21 -0300</lastBuildDate><atom:link href="https://milan.bykoga.com/info/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Info</title>
-      <link>https://bykoga.com/info/banner/</link>
+      <link>https://milan.bykoga.com/info/banner/</link>
       <pubDate>Sat, 22 May 2021 14:14:21 -0300</pubDate>
       
-      <guid>https://bykoga.com/info/banner/</guid>
+      <guid>https://milan.bykoga.com/info/banner/</guid>
       <description>“” –</description>
     </item>
     
     <item>
       <title>Drafts</title>
-      <link>https://bykoga.com/info/rascunhos/</link>
+      <link>https://milan.bykoga.com/info/rascunhos/</link>
       <pubDate>Sat, 29 May 2021 10:06:52 -0300</pubDate>
       
-      <guid>https://bykoga.com/info/rascunhos/</guid>
+      <guid>https://milan.bykoga.com/info/rascunhos/</guid>
       <description>Important! Drafts will usually only appear in the english version of the site!</description>
     </item>
     
     <item>
       <title>Work In Progress!</title>
-      <link>https://bykoga.com/info/wip/</link>
+      <link>https://milan.bykoga.com/info/wip/</link>
       <pubDate>Wed, 26 May 2021 18:40:49 -0300</pubDate>
       
-      <guid>https://bykoga.com/info/wip/</guid>
+      <guid>https://milan.bykoga.com/info/wip/</guid>
       <description>I&amp;rsquo;m constantly improving the website! Check the patchnotes for more!</description>
     </item>
     
     <item>
       <title>Hey!</title>
-      <link>https://bykoga.com/info/warning/</link>
+      <link>https://milan.bykoga.com/info/warning/</link>
       <pubDate>Sat, 22 May 2021 15:14:53 -0300</pubDate>
       
-      <guid>https://bykoga.com/info/warning/</guid>
+      <guid>https://milan.bykoga.com/info/warning/</guid>
       <description>Are the posts overlapping? Reload the site!</description>
     </item>
     
     <item>
       <title>Links</title>
-      <link>https://bykoga.com/info/links/</link>
+      <link>https://milan.bykoga.com/info/links/</link>
       <pubDate>Sat, 22 May 2021 14:14:38 -0300</pubDate>
       
-      <guid>https://bykoga.com/info/links/</guid>
+      <guid>https://milan.bykoga.com/info/links/</guid>
       <description>TwitterInstagramItch.ioLinkedInGoogle Play</description>
     </item>
     

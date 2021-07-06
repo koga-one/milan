@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gamedev on by.koga</title>
-    <link>https://bykoga.com/gamedev/</link>
+    <link>https://milan.bykoga.com/gamedev/</link>
     <description>Recent content in Gamedev on by.koga</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 30 Apr 2021 19:20:39 -0300</lastBuildDate><atom:link href="https://bykoga.com/gamedev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Apr 2021 19:20:39 -0300</lastBuildDate><atom:link href="https://milan.bykoga.com/gamedev/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Game dev</title>
-      <link>https://bykoga.com/gamedev/banner/</link>
+      <link>https://milan.bykoga.com/gamedev/banner/</link>
       <pubDate>Fri, 30 Apr 2021 19:20:39 -0300</pubDate>
       
-      <guid>https://bykoga.com/gamedev/banner/</guid>
+      <guid>https://milan.bykoga.com/gamedev/banner/</guid>
       <description>“Every game brings me closer and closer to making what I imagine, that&amp;rsquo;s why I could never stop making games.” – Kojima Hideo</description>
     </item>
     
     <item>
       <title>(Almost) Tic-Tac-Toe</title>
-      <link>https://bykoga.com/gamedev/almost-tic-tac-toe/</link>
+      <link>https://milan.bykoga.com/gamedev/almost-tic-tac-toe/</link>
       <pubDate>Wed, 26 May 2021 11:02:01 -0300</pubDate>
       
-      <guid>https://bykoga.com/gamedev/almost-tic-tac-toe/</guid>
+      <guid>https://milan.bykoga.com/gamedev/almost-tic-tac-toe/</guid>
       <description> Google Play Itchio  </description>
     </item>
     
